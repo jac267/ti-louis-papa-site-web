@@ -1,0 +1,15 @@
+{
+  "Nous-Contacter-nav-bar": "/nous-contacter.html",
+  "Accueil-nav-bar": "/index.html",
+  "Services-nav-bar": "/nos_services.html",
+  "Réalisations-nav-bar": "/index.html",
+  "Carrières-nav-bar": "/carrieres.html",
+  "A-propos-nav-bar": "/a_propos.html",
+
+  "telephone": "tel:+8199628399",
+  "estimation": "#formulaire",
+  "nous-contacter-index": "/nous-contacter.html",
+
+  "votre-projet1": "#formulaire",
+  "votre-projet2": "#formulaire"
+}

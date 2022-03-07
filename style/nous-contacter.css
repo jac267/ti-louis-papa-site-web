@@ -1,0 +1,293 @@
+.nous-contacter-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nous-contacter-top {
+  width: 100%;
+  height: 540px;
+  display: flex;
+  align-items: center;
+}
+
+.nous-contacter-top-left {
+  width: 50%;
+  height: 100%;
+  background-image: url(../images/DerriereBleu.jpg);
+  background-size: auto;
+  background-position: bottom;
+}
+
+.nous-contacter-top-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heures-ouverture-div {
+  margin-top: 150px;
+  width: 70%;
+  height: 60%;
+}
+
+.heures-ouverture-titre {
+  width: 100%;
+  height: 55px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #14202e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heures-ouverture-grille {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  box-shadow: 5px 5px 30px;
+}
+
+.element-grille {
+  width: 50%;
+  height: 14.3%;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.nous-contacter-blur {
+  position: absolute;
+  background-color: rgba(228, 228, 228, 0.4);
+  backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
+  left: 42.1%;
+  width: 8%;
+  height: 540px;
+}
+
+.nous-contacter-banderole {
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 220px;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+
+.texte-banderole {
+  width: 50%;
+  vertical-align: middle;
+  text-align: center;
+  padding-right: 10%;
+}
+
+.rectangle {
+  width: 70px;
+  height: 5px;
+
+  background-color: rgb(207, 96, 40);
+}
+
+.nous-contacter-titre {
+  width: 30%;
+}
+
+.nous-contacter-bottom {
+  display: flex;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 720px;
+  width: 100%;
+  background-image: url(../images/RockTexture.jpg);
+  align-items: center;
+  justify-content: center;
+}
+
+.bloc-informations {
+  width: 85%;
+  height: 70%;
+  z-index: 1;
+  display: flex;
+}
+
+.bloc-informations-left {
+  width: 40%;
+  height: 100%;
+  border-radius: 50px 0px 0px 50px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bloc-informations-zones-servies {
+  width: 90%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.titre-zones-servies {
+  width: 100%;
+  height: 55%;
+  background-color: #14202e;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zones-servies {
+  width: 100%;
+  height: 45%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.zones-servies-item {
+  width: 50%;
+  height: 100%;
+  border: 1px solid rgb(209, 209, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc-informations-right {
+  width: 60%;
+  height: 100%;
+  background-image: url(../images/pickup2.jpg);
+  background-position: bottom;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.image-telephone {
+  background-image: url(../images/iconetelephoneOrange.png);
+  width: 20%;
+  height: 100%;
+  background-size: 3vw auto;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.telephone-div {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.email-div {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.image-email {
+  background-image: url(../images/iconemailorange.png);
+  width: 20%;
+  height: 100%;
+  background-size: 3vw auto;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.blur {
+  position: absolute;
+  background-color: rgba(207, 205, 205, 0.4);
+  backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
+  height: 720px;
+  width: 100%;
+}
+
+.top-blur {
+  align-self: flex-start;
+  position: absolute;
+  background-color: rgba(207, 205, 205, 0.4);
+  backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
+  height: 30%;
+  width: 100%;
+}
+
+h2 {
+  vertical-align: middle;
+  font-size: 45px;
+  font-family: "Open sans", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "Open sans", sans-serif;
+  color: #cf6028;
+  font-weight: 600;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+p1 {
+  font-size: 1.5vw;
+  font-family: "Open sans", sans-serif;
+  color: #ffffff;
+  font-weight: 800;
+  text-align: center;
+  vertical-align: middle;
+}
+
+p2 {
+  font-size: 20px;
+  font-family: "Open sans", sans-serif;
+  color: #14202e;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+p3 {
+  font-size: 1.2vw;
+  font-family: "Open sans", sans-serif;
+  color: #cf6028;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+p4 {
+  font-size: 1vw;
+  font-family: "Open sans", sans-serif;
+  color: #14202e;
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.formulaire-container-nous-contacter {
+  position: relative;
+  top: 0vw;
+  width: 100%;
+  height: 44vw;
+
+  list-style: none;
+}

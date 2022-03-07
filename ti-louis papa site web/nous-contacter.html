@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/42739acc52.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/input_file.js"></script>
+    <script src="script/periode-drop.js"></script>
+    <script src="script/mailTools.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Conception Rénovation Côté</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/navbarstyle.css" />
+    <link rel="stylesheet" href="style/subnavbarstyle.css" />
+    <link rel="stylesheet" href="style/nous-contacter.css" />
+    <link rel="stylesheet" href="style/creditbarstyle.css" />
+    <link rel="stylesheet" href="style/formulairestyle.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Initialisation de block de code html -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+      $.get("template/nav-bar.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+    <script>
+      $.get("template/formulaire.html", function (data) {
+        $("#formulaire-placeholder").replaceWith(data);
+      });
+    </script>
+    <script>
+      $.get("template/footer-bar.html", function (data) {
+        $("#footer-bar-placeholder").replaceWith(data);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+
+    <div class="espacement-100"></div>
+    <div class="sub-nav-bar">
+      <div class="info-text-bar">
+        <h1>Entrepreneur Général</h1>
+        <h1>à Gatineau-Ottawa</h1>
+      </div>
+      <div class="rect-info-decoration"></div>
+      <h1>Plus de 10 ans d'expérience</h1>
+      <div class="rect-info-decoration"></div>
+      <h1>Estimation Gratuite</h1>
+    </div>
+
+    <div class="nous-contacter-div">
+      <div class="nous-contacter-top">
+        <div class="nous-contacter-top-left"></div>
+        <div class="nous-contacter-top-right">
+          <div class="heures-ouverture-div">
+            <div class="heures-ouverture-titre">
+              <h3>Heures d'ouvertures</h3>
+            </div>
+            <div class="heures-ouverture-grille">
+              <p2 class="element-grille">Dimanche</p2>
+              <p2 class="element-grille">Fermé</p2>
+              <p2 class="element-grille">Lundi</p2>
+              <p2 class="element-grille">7h00-17h00</p2>
+              <p2 class="element-grille">Mardi</p2>
+              <p2 class="element-grille">7h00-17h00</p2>
+              <p2 class="element-grille">Mercredi</p2>
+              <p2 class="element-grille">7h00-17h00</p2>
+              <p2 class="element-grille">Jeudi</p2>
+              <p2 class="element-grille">7h00-17h00</p2>
+              <p2 class="element-grille">Vendredi</p2>
+              <p2 class="element-grille">7h00-17h00</p2>
+              <p2 class="element-grille">Samedi</p2>
+              <p2 class="element-grille">Fermé</p2>
+            </div>
+          </div>
+        </div>
+        <div class="nous-contacter-blur"></div>
+        <div class="nous-contacter-banderole">
+          <div class="texte-banderole">
+            <p1
+              >Vous avez une idée de projet?<br />
+              Contactez-nous dès maintenant!</p1
+            >
+          </div>
+          <div class="rectangle"></div>
+          <h2 class="nous-contacter-titre">Nous&nbsp;contacter</h2>
+          <div class="rectangle"></div>
+        </div>
+      </div>
+      <div class="nous-contacter-bottom">
+        <div class="blur"></div>
+        <div class="top-blur"></div>
+        <div class="bloc-informations">
+          <div class="bloc-informations-left">
+            <div class="bloc-informations-zones-servies">
+              <div class="titre-zones-servies">
+                <h3>Zones servies</h3>
+              </div>
+              <div class="zones-servies">
+                <p2 class="zones-servies-item">Gatineau</p2>
+                <p2 class="zones-servies-item">Ottawa</p2>
+              </div>
+            </div>
+            <div class="telephone-div">
+              <div class="image-telephone"></div>
+              <div>
+                <p3>Téléphone (français)</p3><br />
+                <p4>819-962-8399</p4>
+              </div>
+            </div>
+            <div class="telephone-div">
+              <div class="image-telephone"></div>
+              <div>
+                <p3>Téléphone (anglais)</p3><br />
+                <p4>819-593-6597</p4>
+              </div>
+            </div>
+            <div class="email-div">
+              <div class="image-email"></div>
+              <div>
+                <p3>Courriel</p3><br />
+                <p4>conceptionrenovationcote@outlook.com</p4>
+              </div>
+            </div>
+          </div>
+          <div class="bloc-informations-right"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="formulaire-container-nous-contacter"
+      id="formulaire-placeholder"
+    ></div>
+
+    <div class="credit-bar-div-flex" id="footer-bar-placeholder"></div>
+  </body>
+</html>

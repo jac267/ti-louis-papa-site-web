@@ -1,0 +1,318 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-top{
+    width: 100%;
+    height: 420px;
+    background-image: url(../images/HotelConstruction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    z-index: 0;
+}
+
+.blur-image{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    z-index: -2;
+}
+
+.blur-pierre{
+    position: absolute;
+    background-color: rgba(207, 205, 205, 0.4);
+    backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
+    height: 460px;
+    width: 100%;
+}
+
+.banderole-top{
+    width: 100%;
+    height: 80px;
+    margin-top: 140px;
+    background-color: rgba(20,32,46,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informations-div{
+    z-index: 1;
+    width: 100%;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.background-bois{
+    background-image: url(../images/textureBois.jpeg);
+    width: 100%;
+    height: 350px;
+    background-size: 100% 1200px;
+    background-position: bottom;
+    position: absolute;
+    top: 580px;
+}
+
+.background-pierre{
+    background-image: url(../images/RockTexture.jpg);
+    width: 100%;
+    height: 460px;
+    background-size: 100% 1200px;
+    background-position: bottom;
+    position: absolute;
+    top: 930px;
+}
+
+.nous-engageons-div{
+    width: 100%;
+    height: 5%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocs-milieu-div{
+    width: 100%;
+    height: 40%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloc-milieu-sous-div{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 30px;
+    margin: 2%;
+    z-index: 1;
+}
+
+.blur-bloc{
+    background-color: rgba(255,255,255, 0.4);
+    backdrop-filter: blur(500px) grayscale(0.15) opacity(0.6);
+    height: 100%;
+	width: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre-bloc-millieu{
+    margin-top: 30px;
+    padding: 10px;
+    width: 80%;
+    height: 20%;
+    background-color: #CF6028;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Open sans", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.texte-bloc-millieu-droit{
+    padding: 5% 10%;
+}
+.image-formation-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    width: 40%;
+    margin-top: -20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  
+  .image-formation{
+    width: 11vw;
+    height: auto;
+    min-width: 100px;
+    max-width: 150px;
+    background-blend-mode: difference;
+    margin-bottom: 30px;
+  }
+
+.liste-competences{
+    width: 80%;
+    height: 60%;
+    display:flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.cercle-orange{
+    background-color: #CF6028;
+    height: 1em;
+    width: 1em;
+    border-radius: 0.5em;
+    margin: 15px 5%;
+}
+
+.element-liste{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.bloc-bas-div{
+    width: 100%;
+    height: 45%;
+    z-index: 2;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.bloc-bas-sub-div{
+    background-color: rgba(255,255,255, 0.6);
+    backdrop-filter: blur(500px) grayscale(0.15) opacity(0.6);
+    height: 90%;
+	width: 80%;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.titre-bloc-bas{
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    background-color: #CF6028;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Open sans", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bloc-bas-texte-div{
+    width: 60%;
+    height: 70%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bloc-bas-texte-sub-div{
+    width: 20%;
+    background-color: aliceblue;
+    height: 70%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.image-telephone{
+    background-image: url(../images/iconetelephoneOrange.png);
+    width: 20%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.telephone-div{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.email-div{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.image-email{
+    background-image: url(../images/iconemailorange.png);
+    width: 20%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.image-salaire{
+    background-image: url(../images/argent.png);
+    width: 100%;
+    height: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+}
+
+h2{
+    color: #ffff;
+    text-shadow: 6px 6px 7px #000;
+
+    letter-spacing: 1px;
+    font-size: 7vh;
+    font-weight: 900;
+
+    font-family: "Libre Franklin", sans-serif;
+}
+
+h3{
+    font-size: 45px;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4{
+    font-size: max(2.5vh, 15px);
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+    text-align: left;
+}
+
+p3{
+    font-size: max(1vw, 15px);
+    font-family: "Open sans", sans-serif;
+    color: #CF6028;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p4{
+    font-size: max(1vw, 15px);
+    font-family:"Open sans", sans-serif;
+    color:  #14202e;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    vertical-align: middle;
+}

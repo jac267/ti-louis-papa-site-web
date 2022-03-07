@@ -1,0 +1,237 @@
+.revetement-exterieur-main-div {
+  position: relative;
+
+  width: 100%;
+  height: 35vw;
+}
+.bg-revetement {
+  position: absolute;
+  width: 100%;
+  height: 107.5%;
+  background-image: url(../images/RockTexture.jpg);
+
+  background-position: top;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.blur-revetement {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
+  width: 100%;
+  height: 107.5%;
+}
+.revetement-exterieur-main-titre {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  vertical-align: middle;
+  position: absolute;
+
+  width: 100%;
+  height: 7.5vw;
+}
+
+.revetement-exterieur-main-titre-rect {
+  height: 0.325vw;
+  width: 7vw;
+  list-style: none;
+  margin-top: 3.6vw;
+  background-color: rgb(207, 96, 40);
+}
+
+.revetement-exterieur-main-titre h {
+  text-decoration: none;
+  color: #14202e;
+
+  padding-top: 1.15vw;
+  letter-spacing: 0px;
+  font-size: 3.5vw;
+
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+}
+
+.revetement-exterieur-content {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+  top: 20%;
+
+  margin-left: 5.25vw;
+
+  width: 88vw;
+  height: 35vw;
+
+  display: flex;
+
+  background-color: #14202e;
+
+  backdrop-filter: blur(10px);
+  border-top-right-radius: 2.5vw;
+  border-bottom-right-radius: 2.5vw;
+}
+.container {
+  position: relative;
+  width: 55%;
+  height: 100%;
+}
+
+.background-img {
+  position: absolute;
+
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+
+  background-size: 100% 100%;
+  background-image: url(../images/maisonbleuAvant.png);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.foreground-img {
+  position: absolute;
+
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+
+  background-size: 50vw 100%;
+  background-image: url(../images/maisonbleuApres.png);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  width: 50%;
+}
+.sliding-bar-comparaition {
+  position: absolute;
+  left: 50%;
+  width: 0.5vw;
+  height: 100%;
+
+  border: none;
+  background-color: #14202e;
+  z-index: 1000;
+}
+
+.sliding-bar-comparaition-circle {
+  position: absolute;
+  top: 46.5%;
+  left: -1.5vw;
+  width: 3.5vw;
+  height: 3.5vw;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  border-radius: 3vw;
+
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.sliding-bar-comparaition-circle i {
+  position: relative;
+  top: 17.5%;
+  font-size: 2.25vw;
+}
+.revetement-text {
+  width: 45%;
+  height: 35vw;
+  text-align: center;
+}
+
+.revetement-text {
+  width: 45%;
+  height: 35vw;
+  text-align: center;
+}
+
+.revetement-text-header {
+  height: 30%;
+  width: 100%;
+
+  padding-top: 1.5vw;
+}
+
+.revetement-text-header h1 {
+  font-size: 3.25vw;
+  font-family: "Open sans", sans-serif;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.revetement-text-header h2 {
+  color: #ffff;
+
+  letter-spacing: 0px;
+  font-size: 3.25vw;
+
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+}
+.revetement-text-header-rect {
+  height: 0.325vw;
+  width: 25vw;
+  position: relative;
+  left: 17.5%;
+  top: 5%;
+
+  list-style: none;
+
+  background-color: rgb(207, 96, 40);
+}
+.revetement-list {
+  width: 100%;
+  height: 50%;
+  padding-top: 5%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+
+  text-align: left;
+}
+.revetement-list h {
+  color: #ffff;
+  font-size: 1.45vw;
+  text-align: center;
+
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+}
+.revetement-text-img {
+  object-fit: cover;
+  width: 30%;
+  height: 30%;
+  margin-top: -27.5%;
+  margin-bottom: 0%;
+}
+.revetement-text-button-div {
+  width: 100%;
+}
+
+.revetement-text-button {
+  text-align: center;
+  text-decoration: none;
+  color: #ffff;
+
+  letter-spacing: 0px;
+  font-size: 1.5vw;
+
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+  padding: 0.75vw;
+
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-style: solid;
+  border-color: rgb(207, 96, 40);
+  background-color: rgb(207, 96, 40);
+}

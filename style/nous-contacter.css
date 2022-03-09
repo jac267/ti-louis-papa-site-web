@@ -72,11 +72,9 @@
   background-color: rgba(0, 0, 0, 0.6);
   top: 220px;
   width: 100%;
-  height: 100px;
+  height: 7.7vw;
   position: absolute;
-  text-align: center;
   display: flex;
-  vertical-align: middle;
   align-items: center;
   justify-content: center;
 }
@@ -89,8 +87,8 @@
 }
 
 .rectangle {
-  width: 70px;
-  height: 5px;
+  width: 5.3vw;
+  height: 0.4vw;
 
   background-color: rgb(207, 96, 40);
 }
@@ -227,8 +225,8 @@
 }
 
 h2 {
-  vertical-align: middle;
-  font-size: 45px;
+  text-align: middle;
+  font-size: 3.4vw;
   font-family: "Open sans", sans-serif;
   color: #ffffff;
   font-weight: 600;
@@ -236,7 +234,7 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 1.9vw;
   font-family: "Open sans", sans-serif;
   color: #cf6028;
   font-weight: 600;
@@ -254,7 +252,7 @@ p1 {
 }
 
 p2 {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-family: "Open sans", sans-serif;
   color: #14202e;
   font-weight: 600;

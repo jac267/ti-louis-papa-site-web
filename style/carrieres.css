@@ -5,19 +5,21 @@ body{
 
 .image-top{
     width: 100%;
-    height: 420px;
+    height: 38vw;
     background-image: url(../images/HotelConstruction.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blur-image{
     width: 100%;
     height: 100%;
     backdrop-filter: blur(3px);
-    position: absolute;
     z-index: -2;
 }
 
@@ -25,47 +27,48 @@ body{
     position: absolute;
     background-color: rgba(207, 205, 205, 0.4);
     backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
-    height: 460px;
+    height: 100%;
     width: 100%;
 }
 
 .banderole-top{
     width: 100%;
-    height: 80px;
-    margin-top: 140px;
+    height: 7.7vw;
     background-color: rgba(20,32,46,0.7);
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
 }
 
 .informations-div{
     z-index: 1;
     width: 100%;
-    height: 800px;
+    height: 62.4vw;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .background-bois{
     background-image: url(../images/textureBois.jpeg);
     width: 100%;
-    height: 350px;
+    height: 27vw;
     background-size: 100% 1200px;
     background-position: bottom;
     position: absolute;
-    top: 580px;
+    margin-bottom: 35.4vw;
 }
 
 .background-pierre{
     background-image: url(../images/RockTexture.jpg);
+    margin-top: 27vw;
     width: 100%;
-    height: 460px;
+    height: 35.4vw;
     background-size: 100% 1200px;
     background-position: bottom;
     position: absolute;
-    top: 930px;
 }
 
 .nous-engageons-div{
@@ -274,7 +277,7 @@ h2{
     text-shadow: 6px 6px 7px #000;
 
     letter-spacing: 1px;
-    font-size: 7vh;
+    font-size: 5vw;
     font-weight: 900;
 
     font-family: "Libre Franklin", sans-serif;

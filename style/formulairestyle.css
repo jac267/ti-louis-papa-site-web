@@ -91,6 +91,8 @@
   text-shadow: 4px 8px 6px rgba(0, 0, 0, 0.7);
   font-family: "Open sans", sans-serif;
   font-weight: 600;
+
+  padding-bottom: 2%;
 }
 
 .title-Estimation-1 {
@@ -354,7 +356,7 @@
   height: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: red;
+  background-color: rgba(255, 255, 255, 0.75);
   border-color: transparent;
 }
 

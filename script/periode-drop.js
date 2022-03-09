@@ -41,9 +41,9 @@ function gotChecked(nb) {
 
   if (btn_status[parseInt(nb)] == false) {
     var content = document.getElementById("btn-periode" + nb);
-    content.style.backgroundColor = "rgba(255,0,0,0.2)";
+    content.style.border = "0px solid rgb(72, 72, 72)";
   } else {
     var content = document.getElementById("btn-periode" + nb);
-    content.style.backgroundColor = "rgba(0,120,0,0.7)";
+    content.style.border = "1px solid rgb(72, 72, 72)";
   }
 }

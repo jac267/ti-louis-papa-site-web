@@ -135,10 +135,10 @@
   outline: inherit;
 }
 .terrasse-carousel i:hover {
-  color: rgba(200, 200, 200, 1);
+  color: rgba(255, 255, 255, 0.95);
 }
 .terrasse-carousel i {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 5.5vw;
 }
 

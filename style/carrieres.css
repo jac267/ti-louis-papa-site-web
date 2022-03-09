@@ -110,15 +110,15 @@ body{
 }
 
 .titre-bloc-millieu{
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: 2.3vw;
+    padding: 0.76vw;
     width: 80%;
     height: 20%;
     background-color: #CF6028;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 1.92vw;
     font-family: "Open sans", sans-serif;
     color: #ffffff;
     font-weight: 600;
@@ -158,8 +158,8 @@ body{
 
 .cercle-orange{
     background-color: #CF6028;
-    height: 1em;
-    width: 1em;
+    height: 1vw;
+    width: 1vw;
     border-radius: 0.5em;
     margin: 15px 5%;
 }
@@ -284,7 +284,7 @@ h2{
 }
 
 h3{
-    font-size: 45px;
+    font-size: 3.3vw;
     font-family: "Open sans", sans-serif;
     color: #14202e;
     font-weight: 600;
@@ -293,7 +293,7 @@ h3{
 }
 
 h4{
-    font-size: max(2.5vh, 15px);
+    font-size: 1.5vw;
     font-family: "Open sans", sans-serif;
     color: #14202e;
     font-weight: 600;
@@ -301,7 +301,7 @@ h4{
 }
 
 p3{
-    font-size: max(1vw, 15px);
+    font-size: 1.5vw;
     font-family: "Open sans", sans-serif;
     color: #CF6028;
     font-weight: 600;
@@ -311,7 +311,7 @@ p3{
 }
 
 p4{
-    font-size: max(1vw, 15px);
+        font-size: 1.4vw;
     font-family:"Open sans", sans-serif;
     color:  #14202e;
     font-weight: 600;

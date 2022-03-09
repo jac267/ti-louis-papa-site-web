@@ -55,7 +55,7 @@ body{
     background-image: url(../images/textureBois.jpeg);
     width: 100%;
     height: 27vw;
-    background-size: 100% 1200px;
+    background-size: 100% 120vw;
     background-position: bottom;
     position: absolute;
     margin-bottom: 35.4vw;
@@ -66,7 +66,7 @@ body{
     margin-top: 27vw;
     width: 100%;
     height: 35.4vw;
-    background-size: 100% 1200px;
+    background-size: 100% 120vw;
     background-position: bottom;
     position: absolute;
 }
@@ -93,8 +93,8 @@ body{
     width: 40%;
     height: 100%;
     background-color: rgba(255,255,255,0.8);
-    border-radius: 30px;
-    margin: 2%;
+    border-radius: 2.3vw;
+    margin: 0vw 2vw;
     z-index: 1;
 }
 
@@ -110,7 +110,7 @@ body{
 }
 
 .titre-bloc-millieu{
-    margin-top: 2.3vw;
+    margin-top: 2.1vw;
     padding: 0.76vw;
     width: 80%;
     height: 20%;
@@ -126,7 +126,10 @@ body{
 }
 
 .texte-bloc-millieu-droit{
-    padding: 5% 10%;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    padding: 3vw 3.5vw;
 }
 .image-formation-div{
     display: flex;
@@ -134,7 +137,6 @@ body{
     align-items: center;
     height: 35%;
     width: 40%;
-    margin-top: -20px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
   }
@@ -142,8 +144,6 @@ body{
   .image-formation{
     width: 11vw;
     height: auto;
-    min-width: 100px;
-    max-width: 150px;
     background-blend-mode: difference;
     margin-bottom: 30px;
   }
@@ -153,7 +153,7 @@ body{
     height: 60%;
     display:flex;
     flex-direction: column;
-    margin: 2%;
+    margin-top: 1vw;
 }
 
 .cercle-orange{
@@ -169,7 +169,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 3.6vw;
 }
 
 
@@ -187,7 +187,7 @@ body{
     backdrop-filter: blur(500px) grayscale(0.15) opacity(0.6);
     height: 90%;
 	width: 80%;
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 3vw 3vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -202,7 +202,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 1.92vw;
     font-family: "Open sans", sans-serif;
     color: #ffffff;
     font-weight: 600;
@@ -239,7 +239,7 @@ body{
 
 .telephone-div{
     width: 80%;
-    height: 15%;
+    height: 3vw;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -269,7 +269,16 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 10px;
+    margin: 0.75vw;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    height: 2vw;
 }
 
 h2{
@@ -306,16 +315,16 @@ p3{
     color: #CF6028;
     font-weight: 600;
     text-decoration: none;
-    text-align: center;
+    text-align: middle;
     vertical-align: middle;
 }
 
 p4{
-        font-size: 1.4vw;
+    font-size: 1.4vw;
     font-family:"Open sans", sans-serif;
     color:  #14202e;
     font-weight: 600;
     text-decoration: underline;
-    text-align: center;
+    text-align: middle;
     vertical-align: middle;
 }

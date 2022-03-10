@@ -5,16 +5,15 @@
 
 .nous-contacter-top {
   width: 100%;
-  height: 540px;
+  height: 35vw;
   display: flex;
-  align-items: center;
 }
 
 .nous-contacter-top-left {
   width: 50%;
   height: 100%;
   background-image: url(../images/DerriereBleu.jpg);
-  background-size: auto;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -23,18 +22,19 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .heures-ouverture-div {
-  margin-top: 150px;
-  width: 70%;
-  height: 60%;
+  margin-top: 12vw;
+  width: 34vw;
+  height: 20vw;
 }
 
 .heures-ouverture-titre {
   width: 100%;
-  height: 55px;
+  height: 20%;
   border-radius: 10px 10px 0px 0px;
   background-color: #14202e;
   display: flex;
@@ -63,38 +63,42 @@
   position: absolute;
   background-color: rgba(228, 228, 228, 0.4);
   backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
-  left: 42.1%;
-  width: 8%;
-  height: 540px;
+  width: 8vw;
+  height: 35vw;
+  margin-left: 41.95%;
 }
 
 .nous-contacter-banderole {
+  margin-top: 3vw;
   background-color: rgba(0, 0, 0, 0.6);
-  top: 220px;
   width: 100%;
   height: 7.7vw;
   position: absolute;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .texte-banderole {
-  width: 50%;
+  width: 48%;
   vertical-align: middle;
   text-align: center;
-  padding-right: 10%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .rectangle {
   width: 5.3vw;
   height: 0.4vw;
-
   background-color: rgb(207, 96, 40);
 }
 
 .nous-contacter-titre {
   width: 30%;
+  display:flex;
+  justify-content: center;
+  vertical-align: center;
 }
 
 .nous-contacter-bottom {
@@ -102,7 +106,7 @@
   background-position: top;
   background-repeat: repeat;
   background-size: cover;
-  height: 720px;
+  height: 46.8vw;
   width: 100%;
   background-image: url(../images/RockTexture.jpg);
   align-items: center;
@@ -119,7 +123,7 @@
 .bloc-informations-left {
   width: 40%;
   height: 100%;
-  border-radius: 50px 0px 0px 50px;
+  border-radius: 3.8vw 0px 0px 3.8vw;
   background-color: rgba(255, 255, 255, 0.6);
   display: flex;
   justify-content: space-around;
@@ -211,14 +215,14 @@
   position: absolute;
   background-color: rgba(207, 205, 205, 0.4);
   backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
-  height: 720px;
+  height: 46.8vw;
   width: 100%;
 }
 
 .top-blur {
   align-self: flex-start;
   position: absolute;
-  background-color: rgba(207, 205, 205, 0.4);
+  background-color: rgba(207, 205, 205, 0.5);
   backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
   height: 30%;
   width: 100%;

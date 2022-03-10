@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="script/main-carousel1.js"></script>
-    
 
     <script src="script/main-carousel2.js"></script>
     <script src="script/input_file.js"></script>
+    <script src="script/language-selector.js"></script>
     <script src="script/periode-drop.js"></script>
     <script src="script/mailTools.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    </script>
-   
-    <script>
-    
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script></script>
     <script
       src="https://kit.fontawesome.com/42739acc52.js"
       crossorigin="anonymous"
@@ -25,7 +22,7 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
-    
+
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
@@ -34,25 +31,30 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("*").text(language.date);
+      });
+    </script>
 
     <!-- Initialisation de block de code html -->
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
-    $.get("template/nav-bar.html", function(data){
+      $.get("template/nav-bar.html", function (data) {
         $("#nav-placeholder").replaceWith(data);
-    });
+      });
     </script>
     <script>
-      $.get("template/formulaire.html", function(data){
-          $("#formulaire-placeholder").replaceWith(data);
+      $.get("template/formulaire.html", function (data) {
+        $("#formulaire-placeholder").replaceWith(data);
       });
-      </script>
+    </script>
     <script>
-      $.get("template/footer-bar.html", function(data){
-          $("#footer-bar-placeholder").replaceWith(data);
+      $.get("template/footer-bar.html", function (data) {
+        $("#footer-bar-placeholder").replaceWith(data);
       });
-      </script>
+    </script>
 
     <title>Conception Rénovation Côté</title>
     <link rel="stylesheet" href="style.css" />
@@ -73,11 +75,8 @@
     <style></style>
   </head>
 
-  <body">
-    
-    <div  id="nav-placeholder">
-
-    </div>
+  <body>
+    <div id="nav-placeholder"></div>
 
     <div class="espacement-100"></div>
     <div class="sub-nav-bar">
@@ -101,7 +100,12 @@
           <h1>Rénovation De</h1>
           <h1>Tous Genres</h1>
         </div>
-        <a class="button-text" id = "nous-contacter-index" href="/ti-louis-papa-site-web/nous-contacter.html">Nous Contacter</a>
+        <a
+          class="button-text"
+          id="nous-contacter-index"
+          href="/ti-louis-papa-site-web/nous-contacter.html"
+          >Nous Contacter</a
+        >
       </div>
       <div class="nos-realisation">
         <div></div>
@@ -221,7 +225,7 @@
               Parlez-nous&nbsp;de&nbsp;votre&nbsp;projet!
             </a>
           </div>
-        </div >
+        </div>
         <div
           class="commercial-carousel"
           id="commercial-carousel"
@@ -264,8 +268,8 @@
         </div>
       </div>
     </div>
-    
-    <div id="formulaire" style="position: absolute;top: 147.5vw;"></div>
+
+    <div id="formulaire" style="position: absolute; top: 147.5vw"></div>
 
     <div class="formulaire-container-index">
       <div id="formulaire-placeholder"></div>

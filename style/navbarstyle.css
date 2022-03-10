@@ -185,7 +185,8 @@
 
   vertical-align: middle;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-left: 5px;
 }
 
 .language-ul-text {
@@ -199,12 +200,7 @@
   font-weight: 900;
   font-family: "Open sans", sans-serif;
   white-space: nowrap;
-}
-
-#nav-l {
-  text-align: center;
-  vertical-align: middle;
-  padding-left: 1.5px;
-  font-size: 26px;
-  color: rgb(207, 96, 40);
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
 }

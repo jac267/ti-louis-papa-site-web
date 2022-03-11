@@ -14,13 +14,13 @@
     ></script>
     <script>
       current_L = localStorage.getItem("language");
-      if (current_L != "en" && current_L != "fr") {
+      if (current_L != "en-EN" && current_L != "fr-FR") {
         localStorage.setItem("language", navigator.language);
       }
-      if (current_L == "en") {
+      if (current_L == "en-EN") {
         document.getElementById("LanguageButton").textContent = "EN";
       }
-      if (current_L == "fr") {
+      if (current_L == "fr-FR") {
         document.getElementById("LanguageButton").textContent = "FR";
       }
     </script>

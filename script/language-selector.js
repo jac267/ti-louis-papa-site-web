@@ -4,10 +4,24 @@ function setLanguage() {
   $.getJSON("language/fren.json", function (json) {
     for (const [key, value] of Object.entries(json)) {
       if (lang == "fr-FR") {
-        document.body.innerHTML = document.body.innerHTML.replace(value, key);
+        if (key != value) {
+          while (document.body.innerHTML.search(value) != -1) {
+            document.body.innerHTML = document.body.innerHTML.replace(
+              value,
+              key
+            );
+          }
+        }
       }
       if (lang == "en-EN") {
-        document.body.innerHTML = document.body.innerHTML.replace(key, value);
+        if (key != value) {
+          while (document.body.innerHTML.search(key) != -1) {
+            document.body.innerHTML = document.body.innerHTML.replace(
+              key,
+              value
+            );
+          }
+        }
       }
     }
   });

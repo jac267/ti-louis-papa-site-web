@@ -1,6 +1,6 @@
-.credit-bar-div-flex{
+.credit-bar-div-flex {
   position: relative;
-  top: 7.1vw;
+  top: 5.5vw;
 }
 
 .a-propos-bloc {
@@ -31,7 +31,7 @@
   height: 0.5vw;
   width: 9.375vw;
   border-radius: 1vw;
-  
+
   margin: 0vw 6vw;
   display: table-cell;
   vertical-align: middle;
@@ -169,14 +169,14 @@
 }
 
 .banderole-a-propos h {
-    text-decoration: none;
-    color: #14202e;
+  text-decoration: none;
+  color: #14202e;
 
-    letter-spacing: 0px;
-    font-size: 4vw;
+  letter-spacing: 0px;
+  font-size: 4vw;
 
-    font-family: "Open sans", sans-serif;
-    font-weight: 600;
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
 }
 
 .a-propos-bloc h2 {

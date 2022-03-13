@@ -19,15 +19,13 @@
         location.reload();
       }
       if (current_L == "en-EN") {
-        document.getElementById("LanguageButton").textContent = "EN";
-      }
-      if (current_L == "fr-FR") {
         document.getElementById("LanguageButton").textContent = "FR";
       }
+      if (current_L == "fr-FR") {
+        document.getElementById("LanguageButton").textContent = "EN";
+      }
     </script>
-    <script>
-      setLanguage();
-    </script>
+    <script></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Open+Sans:wght@800&display=swap"
       rel="stylesheet"
@@ -35,7 +33,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
-  <body>
+  <body onload="setLanguage()">
     <nav class="nav-bar" id="nav-bar-placeholder">
       <ul class="split-de-4" style="display: flex">
         <div class="logo-div">
@@ -121,7 +119,11 @@
           <ul class="info-text-ul">
             <li><a href="tel:+8199628399" id="telephone">819-962-8399</a></li>
 
-            <li><a href="#formulaire" id="estimation">Estimation</a></li>
+            <li>
+              <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation"
+                >Estimation</a
+              >
+            </li>
           </ul>
         </div>
 

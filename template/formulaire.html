@@ -62,10 +62,13 @@
             <div class="input-phone"><input class="simple-input" type="text" id="phone" name="phone" placeholder="Téléphone"></div>
             <div class="input-ville"><input class="simple-input" type="text" id="ville" name="ville" placeholder="Ville"></div>
             <div class="input-periode"onmouseleave="dropDownMenuLeave()">
-              <input class="simple-input" type="text" type="text" id="periode" name="peridode" placeholder="Disponibilité(s) :" onclick="dropDownMenuCLick()" READONLY>
+              <div class="input-periode-sub-div">
+                <input class="simple-input" type="text" type="text" id="periode" name="peridode" placeholder="Disponibilité(s) :" onclick="dropDownMenuCLick()" READONLY>
+                <i class='fas fa-angle-down'></i>
+                
+                </input>
+              </div>
               
-              
-            </input>
             
             <div class="dropdown-content" id="dropdown-content1">
               <button class="button-periode" onclick="gotChecked('0')" id="btn-periode0">7h-10h</button>

@@ -198,9 +198,8 @@
 
   text-align: center;
   vertical-align: middle;
-  margin-left: 0%;
+
   position: relative;
-  display: inline-block;
 
   width: 100%;
   max-width: 100%;
@@ -281,7 +280,6 @@
   width: 90%;
   height: 2.75vw;
   margin-top: 1vw;
-  color: #ffff;
 
   padding-left: 5%;
 
@@ -307,27 +305,34 @@
 
   font-weight: 900;
 }
+.input-periode-sub-div {
+  position: relative;
+  color: #ffff;
+  width: 100%;
+}
 
 .input-periode-sub {
-  position: relative;
+  position: absolute;
   padding-top: 3.5%;
+  left: 5%;
   letter-spacing: 0px;
   font-size: 14px;
-  padding-right: -5px;
+
   color: rgb(112, 111, 111);
   font-family: "Open sans", Extra-bold 800;
   font-weight: 900;
-  display: inline-block;
+
   overflow: inherit;
   text-overflow: inherit;
   word-wrap: break-word;
 }
 .fa-angle-down {
-  font-size: 30px;
+  position: absolute;
+  left: 85%;
+  font-size: 2vw;
   color: rgb(112, 111, 111);
-  padding-top: 2.5%;
-  padding-left: 2%;
-  display: inline-block;
+  padding-top: 3.5%;
+
   overflow: inherit;
   text-overflow: inherit;
   word-wrap: break-word;
@@ -356,8 +361,15 @@
   height: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: rgba(255, 255, 255, 0.75);
-  border-color: transparent;
+  background-color: rgb(170, 170, 170);
+
+  border-top: 0.1vw solid rgb(113, 115, 116);
+  border-bottom: 0.1vw solid rgb(113, 115, 116);
+
+  color: rgb(88, 95, 104);
+  font-family: "Open sans", Extra-bold 800;
+  font-weight: 900;
+  font-size: 0.9vw;
 }
 
 /*

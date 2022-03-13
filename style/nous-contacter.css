@@ -84,7 +84,7 @@
   width: 48%;
   vertical-align: middle;
   text-align: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -97,7 +97,7 @@
 
 .nous-contacter-titre {
   width: 30%;
-  display:flex;
+  display: flex;
   justify-content: center;
   vertical-align: center;
 }
@@ -193,6 +193,7 @@
   display: flex;
   justify-content: left;
   align-items: center;
+  text-decoration: none;
 }
 
 .email-div {
@@ -201,6 +202,7 @@
   display: flex;
   justify-content: left;
   align-items: center;
+  text-decoration: none;
 }
 
 .image-email {

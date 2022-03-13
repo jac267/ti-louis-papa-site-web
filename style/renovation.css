@@ -2,15 +2,16 @@
   position: relative;
 
   width: 100%;
-  height: 40vw;
-  padding-top: 17.5%;
+  height: 15vw;
+
+  top: 20vw;
 }
 
 .renovation-bg2 {
   position: absolute;
-  top: 140%;
+  top: 133%;
   width: 100%;
-  height: 10vw;
+  height: 15vw;
   background: linear-gradient(
     to top,
     rgb(255, 255, 255) 0%,

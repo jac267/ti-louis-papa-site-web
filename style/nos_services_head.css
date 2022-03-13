@@ -46,6 +46,7 @@
 }
 .nos-services-colored-rect {
   height: 0.325vw;
+  border-radius: 1vw;
   width: 7vw;
   list-style: none;
   background-color: rgb(207, 96, 40);

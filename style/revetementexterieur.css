@@ -79,7 +79,7 @@
   height: 100%;
 }
 
-.background-img {
+.background-img-fr{
   position: absolute;
 
   top: 0%;
@@ -88,14 +88,14 @@
   height: 100%;
 
   background-size: 100% 100%;
-  background-image: url(../images/maisonbleuAvant.png);
+  background-image: url(../images/maisonbleuApres-fr.jpg);
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
 }
-.foreground-img {
+.foreground-img-fr{
   position: absolute;
 
   top: 0%;
@@ -104,7 +104,7 @@
   height: 100%;
 
   background-size: 50vw 100%;
-  background-image: url(../images/maisonbleuApres.png);
+  background-image: url(../images/maisonbleuAvant-fr.jpg);
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -112,6 +112,41 @@
   user-select: none;
   width: 50%;
 }
+
+.background-img-en{
+  position: absolute;
+
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+
+  background-size: 100% 100%;
+  background-image: url(../images/maisonbleuApres-en.jpg);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.foreground-img-en{
+  position: absolute;
+
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+
+  background-size: 50vw 100%;
+  background-image: url(../images/maisonbleuAvant-en.jpg);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  width: 50%;
+}
+
 .sliding-bar-comparaition {
   position: absolute;
   left: 50%;

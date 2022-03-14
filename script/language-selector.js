@@ -30,11 +30,11 @@ function changeLanguage() {
   current_L = localStorage.getItem("language");
   console.log(current_L);
 
-  if (current_L == "en-EN") {
+  if (current_L == "en-EN" || current_L == "en") {
     localStorage.setItem("language", "fr-FR");
     document.getElementById("LanguageButton").textContent = "EN";
   }
-  if (current_L == "fr-FR") {
+  if (current_L == "fr-FR" || current_L == "fr") {
     localStorage.setItem("language", "en-EN");
     document.getElementById("LanguageButton").textContent = "FR";
   }

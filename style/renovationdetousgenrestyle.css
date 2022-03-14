@@ -70,17 +70,15 @@
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(8px);
   justify-content: space-around;
-  text-align: center;
-  vertical-align: middle;
+  align-items: center;
   z-index: 2;
 }
 
 .rect-realisation {
-  margin-top: 2%;
 
-  height: 0.5vw;
-  width: 9.375vw;
-  border-radius: 1vw;
+  height: 0.4vw;
+  width: 5.4vw;
+  border-radius: 0.75vw;
 
   display: table-cell;
   vertical-align: middle;

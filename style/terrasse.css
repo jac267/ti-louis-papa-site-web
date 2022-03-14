@@ -143,6 +143,7 @@
   font-size: 5.5vw;
   z-index: 1000;
   text-shadow: 2px 5px 5px black;
+  padding-left: 1vw;
 }
 
 .terrasse-text {
@@ -182,7 +183,13 @@
   margin-top: 5%;
   padding-bottom: 7.5%;
 }
-
+.btn-left {
+  text-align: center;
+}
+.btn-right {
+  text-align: center;
+  align-items: center;
+}
 .terrasse-icon {
   object-fit: cover;
   width: 25%;

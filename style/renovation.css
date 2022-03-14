@@ -123,8 +123,16 @@
 
   display: flex;
   justify-content: space-between;
+  color: #000;
+  z-index: 1000;
 }
-
+.btn-left {
+  text-align: center;
+}
+.btn-right {
+  text-align: center;
+  align-items: center;
+}
 .renovation-carousel button {
   background: none;
   color: inherit;
@@ -140,7 +148,7 @@
 .renovation-carousel i {
   color: rgba(255, 255, 255, 0.8);
   font-size: 5.5vw;
-  z-index: 1000;
+  z-index: 999;
   text-shadow: 2px 5px 5px black;
 }
 

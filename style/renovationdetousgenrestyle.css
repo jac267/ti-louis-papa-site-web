@@ -4,16 +4,12 @@
   overflow: hidden;
 }
 .renovation-de-tous-genre-div img {
-  left: 0;
-  top: 1;
 }
 .renovation-de-tous-genre-sub-div {
   position: absolute;
-  background-image: url();
 
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  display: block;
 }
 
 .nous-rejoindre-div {
@@ -77,7 +73,6 @@
 }
 
 .rect-realisation {
-
   height: 0.4vw;
   width: 5.4vw;
   border-radius: 0.75vw;

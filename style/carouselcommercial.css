@@ -46,20 +46,6 @@
   object-fit: cover;
 }
 
-.button-left-right-div {
-  position: relative;
-  width: 100%;
-  height: 10%;
-
-  top: -55%;
-
-  padding-left: 1vw;
-  padding-right: 1vw;
-
-  display: flex;
-  justify-content: space-between;
-}
-
 .commercial-carousel button {
   background: none;
   color: inherit;

@@ -11,7 +11,7 @@
   width: 100%;
   height: 211.5%;
 
-  background-image: url(../images/textureBois.jpeg);
+  background-image: url(../images/textureBois.jpg);
 
   background-position: top;
   background-repeat: no-repeat;
@@ -30,8 +30,9 @@
 }
 
 .terrasse-exterieur-main-titre-rect {
-  height: 0.325vw;
-  width: 7vw;
+  height: 0.4vw;
+  width: 5.4vw;
+  border-radius: 1vw;
   list-style: none;
   margin-top: 3.6vw;
   background-color: rgb(207, 96, 40);

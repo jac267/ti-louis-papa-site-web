@@ -33,8 +33,9 @@
 }
 
 .revetement-exterieur-main-titre-rect {
-  height: 0.325vw;
-  width: 7vw;
+  height: 0.4vw;
+  width: 5.4vw;
+  border-radius: 1vw;
   list-style: none;
   margin-top: 3.6vw;
   background-color: rgb(207, 96, 40);
@@ -214,10 +215,11 @@
   font-weight: 600;
 }
 .revetement-text-header-rect {
-  height: 0.325vw;
-  width: 25vw;
+  height: 0.4vw;
+  width: 15vw;
   position: relative;
-  left: 17.5%;
+  border-radius: 1vw;
+  left: 32%;
   top: 5%;
 
   list-style: none;

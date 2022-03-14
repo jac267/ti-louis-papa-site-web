@@ -43,6 +43,8 @@ body {
   justify-content: center;
   text-align: center;
   vertical-align: middle;
+  border-top: solid #14202e 2px;
+  border-bottom: solid #14202e 2px;
 }
 
 .informations-div {

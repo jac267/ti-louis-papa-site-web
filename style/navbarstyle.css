@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {/*Moins que 800px (mobile)*/
   .split-de-4 {
     display: flex;
     background-color: #14202e;
@@ -294,7 +294,7 @@
 
 
 */
-  @media screen and (max-width: 1000px) and (min-width: 800px) {
+  @media screen and (max-width: 1000px) and (min-width: 800px) {/*Entre 800px et 1000px*/
     .button-text {
       vertical-align: middle;
       text-align: center;
@@ -360,7 +360,14 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {/*Au dessus de 800px (version web)*/
   .split-de-4 {
     display: flex;
     background-color: #14202e;

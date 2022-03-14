@@ -79,8 +79,8 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-top: solid #14202e 2px;
-  border-bottom: solid #14202e 2px;
+  border-top: solid #14202e 0.1vw;
+  border-bottom: solid #14202e 0.1vw;
 
 }
 

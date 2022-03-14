@@ -75,6 +75,8 @@
 .commercial-carousel i {
   color: rgba(255, 255, 255, 0.8);
   font-size: 5.5vw;
+  z-index: 1000;
+  text-shadow: 2px 5px 5px black;
 }
 .commercial-text {
   width: 45%;

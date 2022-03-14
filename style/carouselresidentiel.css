@@ -73,6 +73,7 @@
 .residentielle-carousel i {
   color: rgba(255, 255, 255, 0.8);
   font-size: 5.5vw;
+  text-shadow: 2px 5px 5px black;
 }
 
 .residentiel-text {

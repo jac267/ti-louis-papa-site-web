@@ -14,14 +14,14 @@
     ></script>
     <script>
       current_L = localStorage.getItem("language");
-      if (current_L != "en-EN" && current_L != "fr-FR") {
+      if (current_L != "en-EN" && current_L != "fr-FR" && current_L != "en" && current_L == "fr") {
         localStorage.setItem("language", navigator.language);
         location.reload();
       }
-      if (current_L == "en-EN") {
+      if (current_L == "en-EN" || current_L == "en") {
         document.getElementById("LanguageButton").textContent = "FR";
       }
-      if (current_L == "fr-FR") {
+      if (current_L == "fr-FR" || current_L == "fr") {
         document.getElementById("LanguageButton").textContent = "EN";
       }
     </script>

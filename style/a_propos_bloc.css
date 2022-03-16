@@ -25,8 +25,8 @@
   position: relative;
   text-align: center;
   line-height: 100px;
-  border-top: solid #14202e 2px;
-  border-bottom: solid #14202e 2px;
+  border-top: solid #14202e 0.1vw;
+  border-bottom: solid #14202e 0.1vw;
 }
 
 .rect-realisation {

@@ -24,13 +24,23 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  background-image: url(../images/RockTexture.jpg);
+  background-size: cover;
+}
 
+.top-right-blur{
+  position: absolute;
+  background-color: rgba(207, 205, 205, 0.4);
+  backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
+  height: 46.8vw;
+  width: 65vw;
 }
 
 .heures-ouverture-div {
   margin-top: 13vw;
   width: 34vw;
   height: 20vw;
+  z-index: 1;
 }
 
 .heures-ouverture-titre {
@@ -79,8 +89,8 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-top: solid #14202e 2px;
-  border-bottom: solid #14202e 2px;
+  border-top: solid #14202e 0.1vw;
+  border-bottom: solid #14202e 0.1vw;
 
 }
 
@@ -230,9 +240,9 @@
 .top-blur {
   align-self: flex-start;
   position: absolute;
-  background-color: rgba(207, 205, 205, 0.5);
+  background-color: rgba(20,32,46, 0.9);
   backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
-  height: 30%;
+  height: 20vw;
   width: 100%;
 }
 

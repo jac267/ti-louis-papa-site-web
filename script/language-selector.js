@@ -26,19 +26,30 @@ function setLanguage() {
     }
   });
 }
+
+function setButtonLanguages(text){
+    button_list = document.getElementsByClassName("language-ul-text");
+    for (var btn of button_list){
+      btn.textContent =  text;
+    }
+    setLanguage();
+  
+}
 function changeLanguage() {
   current_L = localStorage.getItem("language");
   console.log(current_L);
 
   if (current_L == "en-EN" || current_L == "en") {
     localStorage.setItem("language", "fr-FR");
-    document.getElementById("LanguageButton").textContent = "EN";
+    setButtonLanguages("EN");
+    
   }
   if (current_L == "fr-FR" || current_L == "fr") {
     localStorage.setItem("language", "en-EN");
-    document.getElementById("LanguageButton").textContent = "FR";
+    
+    setButtonLanguages("FR");
   }
 
-  console.log(document.body.innerHTML);
-  setLanguage();
+  
+  
 }

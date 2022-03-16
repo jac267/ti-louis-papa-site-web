@@ -546,6 +546,7 @@
   }
 
   .language-ul-800 {
+    display: inline;
     list-style: none;
 
     vertical-align: middle;

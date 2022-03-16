@@ -242,7 +242,7 @@
   position: absolute;
   background-color: rgba(20,32,46, 0.9);
   backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
-  height: 30%;
+  height: 20vw;
   width: 100%;
 }
 

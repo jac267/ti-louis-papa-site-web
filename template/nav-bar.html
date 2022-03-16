@@ -49,106 +49,16 @@
           /></a>
         </div>
         <div class="rect-logo"></div>
-
-        <div class="burger-menu">
-          <button class="burger" onclick="openBurger()">
-            <i class="fa fa-bars"></i>
-          </button>
-
-          <div class="button-div">
-            <ul>
-              <li class="button-sub-sub-line">
-                <a
-                  class="button-text"
-                  href="/ti-louis-papa-site-web/nous-contacter.html"
-                  >Nous&nbsp;contacter</a
-                >
-              </li>
-              <li class="button-sub-sub-line">
-                <dict class="rect-links"></dict>
-              </li>
-            </ul>
-
-            <ul>
-              <li class="button-sub-sub-line">
-                <a class="button-text" href="/ti-louis-papa-site-web/index.html"
-                  >Accueil</a
-                >
-              </li>
-              <li class="button-sub-sub-line">
-                <dict class="rect-links"></dict>
-              </li>
-            </ul>
-
-            <ul>
-              <li class="button-sub-sub-line">
-                <a
-                  class="button-text"
-                  href="/ti-louis-papa-site-web/nos_services.html"
-                  >Services</a
-                >
-              </li>
-              <li class="button-sub-sub-line">
-                <dict class="rect-links"></dict>
-              </li>
-            </ul>
-
-            <ul>
-              <li class="button-sub-sub-line">
-                <a
-                  class="button-text"
-                  href="/ti-louis-papa-site-web/carrieres.html"
-                  >Carrières</a
-                >
-              </li>
-              <li class="button-sub-sub-line">
-                <dict class="rect-links"></dict>
-              </li>
-            </ul>
-
-            <ul>
-              <li class="button-sub-sub-line">
-                <a
-                  class="button-text"
-                  href="/ti-louis-papa-site-web/a_propos.html"
-                  >À&nbsp;propos</a
-                >
-              </li>
-              <li class="button-sub-sub-line">
-                <dict class="rect-links"></dict>
-              </li>
-            </ul>
-          </div>
-
-          <div class="info-div">
-            <ul class="info-icon-ul">
-              <li><i class="fa-solid fa-phone" id="nav"></i></li>
-
-              <li>
-                <i class="fa-regular fa-envelope" id="nav"></i>
-              </li>
-            </ul>
-            <ul class="info-text-ul">
-              <li><a href="tel:+8199628399" id="telephone">819-962-8399</a></li>
-
-              <li>
-                <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation"
-                  >Estimation</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div class="language-ul">
-            <li>
-              <button
-                class="language-ul-text"
-                id="LanguageButton"
-                onclick="changeLanguage()"
-              />
-            </li>
-          </div>
+        <div class="language-ul">
+          <li>
+            <button
+              class="language-ul-text"
+              id="LanguageButton"
+              onclick="changeLanguage()"
+            />
+          </li>
         </div>
+        
 
         <div class="button-div-800">
           <ul>
@@ -233,7 +143,24 @@
             </li>
           </ul>
         </div>
+        <div class="info-div">
+          <ul class="info-icon-ul">
+            <li><i class="fa-solid fa-phone" id="nav"></i></li>
 
+            <li>
+              <i class="fa-regular fa-envelope" id="nav"></i>
+            </li>
+          </ul>
+          <ul class="info-text-ul">
+            <li><a href="tel:+8199628399" id="telephone">819-962-8399</a></li>
+
+            <li>
+              <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation"
+                >Estimation</a
+              >
+            </li>
+          </ul>
+        </div>
         <div class="language-ul-800">
           <li>
             <button
@@ -243,7 +170,87 @@
             />
           </li>
         </div>
+
+        <button class="burger" onclick="openCloseBurger()">
+          <i class="fa fa-bars" id="fa-bars"></i>
+          <i class="fa-solid fa-xmark" id="fa-xmark"></i>
+        </button>
       </ul>
+      <div class="burger-menu" id="burger-menu">
+        <div class="button-div">
+          
+          <ul onclick="location.href='/ti-louis-papa-site-web/nous-contacter.html';">
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+            </li>
+            <li class="button-sub-sub-line">
+              <p
+                class="button-text"
+                href="/ti-louis-papa-site-web/nous-contacter.html"
+                >Nous&nbsp;contacter</p
+              >
+            </li>
+            
+          </ul>
+
+          <ul onclick="location.href='/ti-louis-papa-site-web/index.html';">
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+            </li>
+            <li class="button-sub-sub-line">
+              <p class="button-text" 
+                >Accueil</p
+              >
+            </li>
+            
+          </ul>
+
+          <ul onclick="location.href='/ti-louis-papa-site-web/nos_services.html';">
+            <li class="button-sub-sub-line">
+              <li class="button-sub-sub-line">
+                <dict class="rect-links"></dict>
+              </li>
+              <p
+                class="button-text"
+                
+                >Services</p
+              >
+            </li>
+            
+          </ul>
+
+          <ul onclick="location.href='/ti-louis-papa-site-web/carrieres.html';">
+            <li class="button-sub-sub-line">
+              <li class="button-sub-sub-line">
+                <dict class="rect-links"></dict>
+              </li>
+              <p
+                class="button-text"
+                
+                >Carrières</p
+              >
+            </li>
+            
+          </ul>
+
+          <ul onclick="location.href='/ti-louis-papa-site-web/a_propos.html';">
+            <li class="button-sub-sub-line">
+              <li class="button-sub-sub-line">
+                <dict class="rect-links"></dict>
+              </li>
+              <p
+                class="button-text"
+                
+                >À&nbsp;propos</p
+              >
+    
+            </li>
+            
+          </ul>
+        </div>
+
+        
+      </div>
     </nav>
   </body>
 </html>

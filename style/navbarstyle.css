@@ -1,4 +1,5 @@
-@media screen and (max-width: 800px) {/*Moins que 800px (mobile)*/
+@media screen and (max-width: 800px) {
+  /*Moins que 800px (mobile)*/
   .split-de-4 {
     position: relative;
     top: 0%;
@@ -10,7 +11,6 @@
 
     width: 100%;
     max-height: 100px;
-    font-size: 1vw;
   }
   .split-de-4 li {
     justify-content: space-evenly;
@@ -33,7 +33,7 @@
     align-items: center;
 
     list-style: none;
-    left: -10%;
+    left: -12.5%;
   }
   .logo-img {
     max-height: 13vw;
@@ -46,7 +46,7 @@
     border-radius: 0.5vw;
     list-style: none;
     background-color: rgb(207, 96, 40);
-    left: -20%;
+    left: -25%;
   }
 
   .burger-menu {
@@ -61,12 +61,14 @@
   }
 
   .burger {
+    position: relative;
     padding: 5%;
     padding-left: 10%;
     padding-right: 100%;
     border-radius: 15%;
 
-    margin-right: -12.5%;
+    left: 1%;
+    margin-right: -10%;
     background: none;
     color: inherit;
     border: none;
@@ -82,13 +84,13 @@
 
   .fa-bars {
     color: rgb(207, 96, 40);
-    font-size: 7.5vw;
+    font-size: 7vw;
 
     display: block;
   }
   .fa-xmark {
     color: rgb(207, 96, 40);
-    font-size: 10.5vw;
+    font-size: 9.5vw;
 
     display: none;
   }
@@ -173,10 +175,9 @@
     list-style: none;
   }
   .info-div {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 1vw;
+    text-decoration: none;
+    margin-left: -37.5%;
+    display: flex;
 
     height: 100%;
 
@@ -185,8 +186,23 @@
   .info-div-800 {
     display: none;
   }
-  .info-div li {
+  .info-div a {
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+
+    font-size: 3.25vw;
+    padding-left: 6%;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+
+    flex-direction: row;
+    white-space: nowrap;
+    font-family: "Open sans", sans-serif;
+  }
+  .info-div ul {
     list-style: none;
+    margin-right: 7.5%;
   }
   .info-ul {
     display: flex;
@@ -215,28 +231,32 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
-  .info-text-ul li {
-    margin: 10px 0;
+  .info-phone-ul {
+    display: flex;
   }
+
   #nav {
-    font-size: 26px;
+    padding-top: 23%;
+    font-size: 3.25vw;
     color: rgb(207, 96, 40);
   }
 
-  .info-icon-ul li {
-    margin: 10px 0;
+  .info-email-ul {
+    display: flex;
   }
 
   .language-ul {
     list-style: none;
-
+    position: relative;
+    left: -2.5%;
     vertical-align: middle;
     text-align: center;
     list-style: none;
 
     vertical-align: middle;
     text-align: center;
-    margin-right: -12.5%;
+    margin-right: -15%;
+    margin-left: -5%;
   }
   .language-ul-800 {
     display: none;
@@ -245,7 +265,7 @@
     vertical-align: middle;
     text-align: center;
 
-    font-size: 4vw;
+    font-size: 3.25vw;
 
     color: rgb(255, 255, 255);
     font-weight: 900;
@@ -312,7 +332,8 @@
 
 
 */
-  @media screen and (max-width: 1000px) and (min-width: 800px) {/*Entre 800px et 1000px*/
+  @media screen and (max-width: 1000px) and (min-width: 800px) {
+    /*Entre 800px et 1000px*/
     .button-text {
       vertical-align: middle;
       text-align: center;
@@ -378,14 +399,8 @@
   }
 }
 
-
-
-
-
-
-
-
-@media screen and (min-width: 800px) {/*Au dessus de 800px (version web)*/
+@media screen and (min-width: 800px) {
+  /*Au dessus de 800px (version web)*/
   .split-de-4 {
     display: flex;
     background-color: #14202e;
@@ -432,6 +447,10 @@
     margin-left: -2%;
   }
   .burger-menu {
+    display: none;
+  }
+
+  .burger-menu .button-div {
     display: none;
   }
   .burger {

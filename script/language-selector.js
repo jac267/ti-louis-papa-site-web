@@ -51,5 +51,5 @@ function changeLanguage() {
   }
 
   
-  setLanguage();
+  
 }

@@ -26,6 +26,14 @@ function setLanguage() {
     }
   });
 }
+
+function setButtonLanguages(text){
+    button_list = document.getElementByClassName("language-ul-text");
+    for (var btn of button_list){
+      btn.textContent =  text;
+    }
+  
+}
 function changeLanguage() {
   current_L = localStorage.getItem("language");
   console.log(current_L);

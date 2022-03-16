@@ -1,3 +1,10 @@
+.fa-xmark {
+  color: rgb(207, 96, 40);
+  font-size: 9.5vw;
+
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   /*Moins que 800px (mobile)*/
   .split-de-4 {

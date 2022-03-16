@@ -32,6 +32,7 @@ function setButtonLanguages(text){
     for (var btn of button_list){
       btn.textContent =  text;
     }
+    setLanguage();
   
 }
 function changeLanguage() {

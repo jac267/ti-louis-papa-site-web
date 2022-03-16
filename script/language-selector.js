@@ -40,13 +40,15 @@ function changeLanguage() {
 
   if (current_L == "en-EN" || current_L == "en") {
     localStorage.setItem("language", "fr-FR");
-    document.getElementById("LanguageButton").textContent = "EN";
+    setButtonLanguages("EN");
+    
   }
   if (current_L == "fr-FR" || current_L == "fr") {
     localStorage.setItem("language", "en-EN");
-    document.getElementById("LanguageButton").textContent = "FR";
+    
+    setButtonLanguages("FR");
   }
 
-  console.log(document.body.innerHTML);
+  
   setLanguage();
 }

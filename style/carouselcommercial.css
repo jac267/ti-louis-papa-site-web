@@ -1,151 +1,326 @@
-.commercial-div {
-  top: 51.75vw;
-  position: relative;
-  width: 100%;
-  height: 45vw;
+@media screen and (max-width: 800px) {
+  /*Au dessus de 800px (version mobile)*/
+  .commercial-div {
+    top: 100vw;
+    position: relative;
+    width: 100%;
+    height: 45vw;
 
-  display: flex;
-  justify-content: center;
-  padding-top: 2.5vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vw;
 
-  background: linear-gradient(
-    to top,
-    rgb(255, 255, 255) 0%,
-    rgb(184, 182, 182) 30%,
-    #9c9e9f 30%,
-    #9c9e9f 100%
-  );
+    background: linear-gradient(
+      to top,
+      rgb(255, 255, 255) 0%,
+      rgb(184, 182, 182) 30%,
+      #9c9e9f 30%,
+      #9c9e9f 100%
+    );
+  }
+
+  .commercial-sub-div {
+    position: relative;
+
+    width: 88vw;
+    height: 35vw;
+
+    display: flex;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+
+    border-top-left-radius: 2.5vw;
+    border-bottom-left-radius: 2.5vw;
+  }
+
+  .commercial-carousel {
+    width: 55%;
+    height: 100%;
+
+    position: relative;
+  }
+
+  .carousel2 {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .commercial-carousel button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .commercial-carousel i:hover {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .commercial-carousel i {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 5.5vw;
+    z-index: 1000;
+    text-shadow: 2px 5px 5px black;
+  }
+  .btn-left {
+    text-align: center;
+    height: 100%;
+    width: 10%;
+  }
+  .btn-right {
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+  }
+  .commercial-text {
+    width: 45%;
+    height: 35vw;
+    text-align: center;
+  }
+
+  .commercial-text-header {
+    height: 30%;
+    width: 100%;
+
+    padding-top: 1.5vw;
+  }
+
+  .commercial-text-header h1 {
+    font-size: 4vw;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+  }
+
+  .commercial-text-header h2 {
+    color: #14202e;
+
+    letter-spacing: 0px;
+    font-size: 1.6vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .commercial-text-list {
+    width: 100%;
+    height: 50%;
+  }
+
+  .commercial-text-list-elements {
+    text-align: left;
+    padding-left: 12.5%;
+    padding-top: 0.25vw;
+  }
+
+  .commercial-text-list-elements i {
+    color: rgb(207, 96, 40);
+    font-size: 1vw;
+    padding-right: 1vw;
+  }
+  .commercial-text-list-elements h {
+    color: #14202e;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: "Open sans", sans-serif;
+  }
+  .commercial-text-button-div {
+    width: 100%;
+  }
+
+  .commercial-text-button {
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+
+    letter-spacing: 0px;
+    font-size: 1.5vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    padding: 0.75vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-style: solid;
+    border-color: rgb(207, 96, 40);
+    background-color: rgb(207, 96, 40);
+  }
 }
+/*
 
-.commercial-sub-div {
-  position: relative;
 
-  width: 88vw;
-  height: 35vw;
 
-  display: flex;
 
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
 
-  border-top-left-radius: 2.5vw;
-  border-bottom-left-radius: 2.5vw;
-}
 
-.commercial-carousel {
-  width: 55%;
-  height: 100%;
 
-  position: relative;
-}
 
-.carousel2 {
-  width: 100%;
-  height: 100%;
 
-  object-fit: cover;
-}
 
-.commercial-carousel button {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-}
-.commercial-carousel i:hover {
-  color: rgba(255, 255, 255, 0.95);
-}
-.commercial-carousel i {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 5.5vw;
-  z-index: 1000;
-  text-shadow: 2px 5px 5px black;
-}
-.btn-left {
-  text-align: center;
-  height: 100%;
-  width: 10%;
-}
-.btn-right {
-  height: 100%;
-  width: 10%;
-  text-align: center;
-  align-items: center;
-}
-.commercial-text {
-  width: 45%;
-  height: 35vw;
-  text-align: center;
-}
 
-.commercial-text-header {
-  height: 30%;
-  width: 100%;
 
-  padding-top: 1.5vw;
-}
 
-.commercial-text-header h1 {
-  font-size: 4vw;
-  font-family: "Open sans", sans-serif;
-  color: #14202e;
-  font-weight: 600;
-}
 
-.commercial-text-header h2 {
-  color: #14202e;
 
-  letter-spacing: 0px;
-  font-size: 1.6vw;
+*/
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-}
+@media screen and (min-width: 800px) {
+  /*Au dessus de 800px (version web)*/
+  .commercial-div {
+    top: 51.75vw;
+    position: relative;
+    width: 100%;
+    height: 45vw;
 
-.commercial-text-list {
-  width: 100%;
-  height: 50%;
-}
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vw;
 
-.commercial-text-list-elements {
-  text-align: left;
-  padding-left: 12.5%;
-  padding-top: 0.25vw;
-}
+    background: linear-gradient(
+      to top,
+      rgb(255, 255, 255) 0%,
+      rgb(184, 182, 182) 30%,
+      #9c9e9f 30%,
+      #9c9e9f 100%
+    );
+  }
 
-.commercial-text-list-elements i {
-  color: rgb(207, 96, 40);
-  font-size: 1vw;
-  padding-right: 1vw;
-}
-.commercial-text-list-elements h {
-  color: #14202e;
-  font-size: 1.5vw;
-  font-weight: 600;
-  font-family: "Open sans", sans-serif;
-}
-.commercial-text-button-div {
-  width: 100%;
-}
+  .commercial-sub-div {
+    position: relative;
 
-.commercial-text-button {
-  text-align: center;
-  text-decoration: none;
-  color: #ffff;
+    width: 88vw;
+    height: 35vw;
 
-  letter-spacing: 0px;
-  font-size: 1.5vw;
+    display: flex;
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-  padding: 0.75vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
 
-  padding-left: 2vw;
-  padding-right: 2vw;
-  border-style: solid;
-  border-color: rgb(207, 96, 40);
-  background-color: rgb(207, 96, 40);
+    border-top-left-radius: 2.5vw;
+    border-bottom-left-radius: 2.5vw;
+  }
+
+  .commercial-carousel {
+    width: 55%;
+    height: 100%;
+
+    position: relative;
+  }
+
+  .carousel2 {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .commercial-carousel button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .commercial-carousel i:hover {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .commercial-carousel i {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 5.5vw;
+    z-index: 1000;
+    text-shadow: 2px 5px 5px black;
+  }
+  .btn-left {
+    text-align: center;
+    height: 100%;
+    width: 10%;
+  }
+  .btn-right {
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+  }
+  .commercial-text {
+    width: 45%;
+    height: 35vw;
+    text-align: center;
+  }
+
+  .commercial-text-header {
+    height: 30%;
+    width: 100%;
+
+    padding-top: 1.5vw;
+  }
+
+  .commercial-text-header h1 {
+    font-size: 4vw;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+  }
+
+  .commercial-text-header h2 {
+    color: #14202e;
+
+    letter-spacing: 0px;
+    font-size: 1.6vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .commercial-text-list {
+    width: 100%;
+    height: 50%;
+  }
+
+  .commercial-text-list-elements {
+    text-align: left;
+    padding-left: 12.5%;
+    padding-top: 0.25vw;
+  }
+
+  .commercial-text-list-elements i {
+    color: rgb(207, 96, 40);
+    font-size: 1vw;
+    padding-right: 1vw;
+  }
+  .commercial-text-list-elements h {
+    color: #14202e;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: "Open sans", sans-serif;
+  }
+  .commercial-text-button-div {
+    width: 100%;
+  }
+
+  .commercial-text-button {
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+
+    letter-spacing: 0px;
+    font-size: 1.5vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    padding: 0.75vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-style: solid;
+    border-color: rgb(207, 96, 40);
+    background-color: rgb(207, 96, 40);
+  }
 }

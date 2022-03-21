@@ -1,159 +1,341 @@
-.residentiel-div {
-  top: 51.75vw;
-  position: relative;
-  width: 100%;
-  height: 45vw;
+@media screen and (max-width: 800px) {
+  /*Au dessus de 800px (version mobile)*/
+  .residentiel-div {
+    top: 51.75vw;
+    position: relative;
+    width: 100%;
+    height: 45vw;
 
-  display: flex;
-  justify-content: center;
-  padding-top: 6vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 6vw;
 
-  background: linear-gradient(
-    to top,
-    #9c9e9f 0%,
-    #9c9e9f 70%,
-    rgb(255, 255, 255) 70%,
-    rgb(184, 182, 182) 100%
-  );
+    background: linear-gradient(
+      to top,
+      #9c9e9f 0%,
+      #9c9e9f 70%,
+      rgb(255, 255, 255) 70%,
+      rgb(184, 182, 182) 100%
+    );
+  }
+
+  .residentiel-sub-div {
+    position: relative;
+
+    width: 88vw;
+    height: 70vw;
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-top-right-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+  }
+
+  .residentielle-carousel {
+    width: 100%;
+    height: 60vw;
+
+    position: relative;
+  }
+
+  .carousel1 {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .button-left-right-div {
+    position: relative;
+    width: 100%;
+    height: 20%;
+
+    top: -55%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .residentielle-carousel button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .residentielle-carousel i:hover {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .residentielle-carousel i {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 5.5vw;
+    text-shadow: 2px 5px 5px black;
+  }
+  .btn-left {
+    text-align: center;
+    height: 100%;
+    width: 10%;
+  }
+  .btn-right {
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+  }
+  .residentiel-text {
+    width: 45%;
+    height: 35vw;
+    text-align: center;
+  }
+
+  .residentiel-text-header {
+    height: 30%;
+    width: 100%;
+
+    padding-top: 1.5vw;
+  }
+
+  .residentiel-text-header h1 {
+    font-size: 4vw;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+  }
+
+  .residentiel-text-header h2 {
+    color: #14202e;
+
+    letter-spacing: 0px;
+    font-size: 1.6vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .residentiel-text-list {
+    width: 100%;
+    height: 50%;
+  }
+
+  .residentiel-text-list-elements {
+    text-align: left;
+    padding-left: 12.5%;
+    padding-top: 0.25vw;
+  }
+
+  .residentiel-text-list-elements i {
+    color: rgb(207, 96, 40);
+    font-size: 1vw;
+    padding-right: 1vw;
+  }
+  .residentiel-text-list-elements h {
+    color: #14202e;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: "Open sans", sans-serif;
+  }
+  .residentiel-text-button-div {
+    width: 100%;
+  }
+
+  .residentiel-text-button {
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+
+    letter-spacing: 0px;
+    font-size: 1.5vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    padding: 0.75vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-style: solid;
+    border-color: rgb(207, 96, 40);
+    background-color: rgb(207, 96, 40);
+  }
 }
+/*
 
-.residentiel-sub-div {
-  position: relative;
 
-  width: 88vw;
-  height: 35vw;
 
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
-  border-top-right-radius: 2.5vw;
-  border-bottom-right-radius: 2.5vw;
-}
 
-.residentielle-carousel {
-  width: 55%;
-  height: 100%;
 
-  position: relative;
-}
 
-.carousel1 {
-  width: 100%;
-  height: 100%;
 
-  object-fit: cover;
-}
 
-.button-left-right-div {
-  position: relative;
-  width: 100%;
-  height: 20%;
 
-  top: -55%;
 
-  display: flex;
-  justify-content: space-between;
-}
 
-.residentielle-carousel button {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-}
-.residentielle-carousel i:hover {
-  color: rgba(255, 255, 255, 0.95);
-}
-.residentielle-carousel i {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 5.5vw;
-  text-shadow: 2px 5px 5px black;
-}
-.btn-left {
-  text-align: center;
-  height: 100%;
-  width: 10%;
-}
-.btn-right {
-  height: 100%;
-  width: 10%;
-  text-align: center;
-  align-items: center;
-}
-.residentiel-text {
-  width: 45%;
-  height: 35vw;
-  text-align: center;
-}
 
-.residentiel-text-header {
-  height: 30%;
-  width: 100%;
 
-  padding-top: 1.5vw;
-}
 
-.residentiel-text-header h1 {
-  font-size: 4vw;
-  font-family: "Open sans", sans-serif;
-  color: #14202e;
-  font-weight: 600;
-}
 
-.residentiel-text-header h2 {
-  color: #14202e;
+*/
 
-  letter-spacing: 0px;
-  font-size: 1.6vw;
+@media screen and (min-width: 800px) {
+  /*Au dessus de 800px (version web)*/
+  .residentiel-div {
+    top: 51.75vw;
+    position: relative;
+    width: 100%;
+    height: 45vw;
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-}
+    display: flex;
+    justify-content: center;
+    padding-top: 6vw;
 
-.residentiel-text-list {
-  width: 100%;
-  height: 50%;
-}
+    background: linear-gradient(
+      to top,
+      #9c9e9f 0%,
+      #9c9e9f 70%,
+      rgb(255, 255, 255) 70%,
+      rgb(184, 182, 182) 100%
+    );
+  }
 
-.residentiel-text-list-elements {
-  text-align: left;
-  padding-left: 12.5%;
-  padding-top: 0.25vw;
-}
+  .residentiel-sub-div {
+    position: relative;
 
-.residentiel-text-list-elements i {
-  color: rgb(207, 96, 40);
-  font-size: 1vw;
-  padding-right: 1vw;
-}
-.residentiel-text-list-elements h {
-  color: #14202e;
-  font-size: 1.5vw;
-  font-weight: 600;
-  font-family: "Open sans", sans-serif;
-}
-.residentiel-text-button-div {
-  width: 100%;
-}
+    width: 88vw;
+    height: 35vw;
 
-.residentiel-text-button {
-  text-align: center;
-  text-decoration: none;
-  color: #ffff;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-top-right-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+  }
 
-  letter-spacing: 0px;
-  font-size: 1.5vw;
+  .residentielle-carousel {
+    width: 55%;
+    height: 100%;
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-  padding: 0.75vw;
+    position: relative;
+  }
 
-  padding-left: 2vw;
-  padding-right: 2vw;
-  border-style: solid;
-  border-color: rgb(207, 96, 40);
-  background-color: rgb(207, 96, 40);
+  .carousel1 {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .button-left-right-div {
+    position: relative;
+    width: 100%;
+    height: 20%;
+
+    top: -55%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .residentielle-carousel button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .residentielle-carousel i:hover {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .residentielle-carousel i {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 5.5vw;
+    text-shadow: 2px 5px 5px black;
+  }
+  .btn-left {
+    text-align: center;
+    height: 100%;
+    width: 10%;
+  }
+  .btn-right {
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+  }
+  .residentiel-text {
+    width: 45%;
+    height: 35vw;
+    text-align: center;
+  }
+
+  .residentiel-text-header {
+    height: 30%;
+    width: 100%;
+
+    padding-top: 1.5vw;
+  }
+
+  .residentiel-text-header h1 {
+    font-size: 4vw;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+  }
+
+  .residentiel-text-header h2 {
+    color: #14202e;
+
+    letter-spacing: 0px;
+    font-size: 1.6vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .residentiel-text-list {
+    width: 100%;
+    height: 50%;
+  }
+
+  .residentiel-text-list-elements {
+    text-align: left;
+    padding-left: 12.5%;
+    padding-top: 0.25vw;
+  }
+
+  .residentiel-text-list-elements i {
+    color: rgb(207, 96, 40);
+    font-size: 1vw;
+    padding-right: 1vw;
+  }
+  .residentiel-text-list-elements h {
+    color: #14202e;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: "Open sans", sans-serif;
+  }
+  .residentiel-text-button-div {
+    width: 100%;
+  }
+
+  .residentiel-text-button {
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+
+    letter-spacing: 0px;
+    font-size: 1.5vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    padding: 0.75vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-style: solid;
+    border-color: rgb(207, 96, 40);
+    background-color: rgb(207, 96, 40);
+  }
 }

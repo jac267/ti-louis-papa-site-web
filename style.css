@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 .body {
+  min-width: 350px;
   background-color: #ffff;
   display: flex;
 }

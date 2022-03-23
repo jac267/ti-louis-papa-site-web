@@ -223,7 +223,7 @@
     grid-column-end: 74;
     grid-row-start: 18;
     grid-row-end: 29;
-    margin-top: 5vw;
+    margin-top: 3vw;
     text-align: center;
     vertical-align: middle;
 
@@ -426,15 +426,14 @@
 
   .btn-send button {
     letter-spacing: 0px;
-    font-size: 3.25vw;
+    font-size: 4vw;
     text-align: center;
+    vertical-align: center;
 
     color: white;
-    padding-top: 0.75vw;
-    padding-bottom: 2.5vw;
-    margin-top: 2vw;
+    margin-top: 3vw;
     width: 65%;
-    height: 8vw;
+    height: 10vw;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
     border-color: transparent;
     border-radius: 2vw;

@@ -21,6 +21,7 @@
     width: 100%;
     height: 38vw;
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     position:absolute
   }
 

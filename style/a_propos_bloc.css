@@ -92,13 +92,13 @@
   }
 
   .a-propos-stone {
-    top: 115vw;
+    top: 109vw;
     background-position: top;
     background-repeat: repeat;
-    height: 136vw;
+    height: 144vw;
     width: 100%;
     background-image: url(../images/RockTexture.jpg);
-    background-size: 100% 135vw;
+    background-size: 100% 144vw;
     position: absolute;
   }
 

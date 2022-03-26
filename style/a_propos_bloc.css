@@ -18,7 +18,7 @@
     backdrop-filter: blur(8px);
     margin-top: 5.3vw;
     width: 100%;
-    height: 9.21vw;
+    height: 13.815vw;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -47,10 +47,11 @@
   .a-propos-bloc-histoire {
     margin-top: 5.3vw;
     width: 80%;
-    height: 27vw;
+    height: 81vw;
     position: relative;
     z-index: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -58,23 +59,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 40%;
+    height: 40%;
+    width: 100%;
     background-color: #14202e;
-    border-top-left-radius: 3vw;
-    border-bottom-left-radius: 3vw;
+    border-radius: 3vw 3vw 0vw 0vw;
   }
 
   .logo-crc-hisoire {
-    width: 20vw;
+    width: 30vw;
     height: auto;
   }
 
   .histoire-texte {
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px) saturate(150%);
-    width: 60%;
-    height: 100%;
+    width: 100%;
+    height: 60%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -84,7 +84,7 @@
   .a-propos-bois {
     background-image: url(../images/textureBois.jpg);
     width: 100%;
-    height: 62vw;
+    height: 89vw;
     background-size: 100% 100vw;
     background-position: bottom;
     z-index: 1;
@@ -92,22 +92,23 @@
   }
 
   .a-propos-stone {
-    top: 80vw;
+    top: 109vw;
     background-position: top;
     background-repeat: repeat;
-    height: 90vw;
+    height: 144vw;
     width: 100%;
     background-image: url(../images/RockTexture.jpg);
-    background-size: 100% 90vw;
+    background-size: 100% 144vw;
     position: absolute;
   }
 
   .notre-equipe-bloc {
     margin-top: 10.6vw;
     width: 80%;
-    height: 27vw;
+    height: 108vw;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -116,11 +117,12 @@
   .notre-equipe-texte {
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px) saturate(150%);
-    width: 60%;
-    height: 100%;
+    width: 100%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-bottom: 3vw;
   }
 
   .faire-carriere-bouton-div {
@@ -134,7 +136,7 @@
     color: #ffff;
 
     letter-spacing: 0px;
-    font-size: 1.5vw;
+    font-size: 3vw;
 
     font-family: "Open sans", sans-serif;
     font-weight: 600;
@@ -151,8 +153,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 40%;
+    height: 60%;
+    width: 100%;
   }
 
   .notre-equipe-image {
@@ -177,14 +179,14 @@
     color: #14202e;
 
     letter-spacing: 0px;
-    font-size: 4vw;
+    font-size: 6vw;
 
     font-family: "Open sans", sans-serif;
     font-weight: 600;
   }
 
   .a-propos-bloc h2 {
-    font-size: 3.4vw;
+    font-size: 6.8vw;
     font-family: "Open sans", sans-serif;
     color: #14202e;
     font-weight: 600;
@@ -195,7 +197,7 @@
   .a-propos-bloc p {
     margin: 0vw 3vw;
     text-align: justify;
-    font-size: 1.1vw;
+    font-size: 2.2vw;
     font-family: "Open sans", sans-serif;
     color: #14202e;
     font-weight: 700;
@@ -250,8 +252,8 @@
   }
 
   .rect-realisation {
-    height: 0.4vw;
-    width: 5.4vw;
+    height: 0.6vw;
+    width: 8.1vw;
     border-radius: 1vw;
 
     margin: 0vw 6vw;

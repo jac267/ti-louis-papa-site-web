@@ -1,206 +1,208 @@
-.credit-bar-div-flex {
-  position: relative;
-  top: 5.5vw;
-}
+@media (max-width: 800px){
+  .credit-bar-div-flex {
+    position: relative;
+    top: 5.5vw;
+  }
 
-.a-propos-bloc {
-  background-color: #14202e;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .a-propos-bloc {
+    background-color: #14202e;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.banderole-a-propos {
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(8px);
-  margin-top: 5.3vw;
-  width: 100%;
-  height: 13.815vw;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-align: center;
-  line-height: 100px;
-  border-top: solid #14202e 0.1vw;
-  border-bottom: solid #14202e 0.1vw;
-}
+  .banderole-a-propos {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    margin-top: 5.3vw;
+    width: 100%;
+    height: 13.815vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+    border-top: solid #14202e 0.1vw;
+    border-bottom: solid #14202e 0.1vw;
+  }
 
-.rect-realisation {
-  height: 0.4vw;
-  width: 5.4vw;
-  border-radius: 1vw;
+  .rect-realisation {
+    height: 0.4vw;
+    width: 5.4vw;
+    border-radius: 1vw;
 
-  margin: 0vw 6vw;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+    margin: 0vw 6vw;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 
-  background-color: rgb(207, 96, 40);
-  z-index: 1;
-}
+    background-color: rgb(207, 96, 40);
+    z-index: 1;
+  }
 
-.a-propos-bloc-histoire {
-  margin-top: 5.3vw;
-  width: 80%;
-  height: 81vw;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  .a-propos-bloc-histoire {
+    margin-top: 5.3vw;
+    width: 80%;
+    height: 81vw;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.a-propos-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40%;
-  width: 100%;
-  background-color: #14202e;
-  border-radius: 3vw 3vw 0vw 0vw;
-}
+  .a-propos-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    background-color: #14202e;
+    border-radius: 3vw 3vw 0vw 0vw;
+  }
 
-.logo-crc-hisoire {
-  width: 30vw;
-  height: auto;
-}
+  .logo-crc-hisoire {
+    width: 30vw;
+    height: auto;
+  }
 
-.histoire-texte {
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px) saturate(150%);
-  width: 100%;
-  height: 60%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-}
+  .histoire-texte {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px) saturate(150%);
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.a-propos-bois {
-  background-image: url(../images/textureBois.jpg);
-  width: 100%;
-  height: 89vw;
-  background-size: 100% 100vw;
-  background-position: bottom;
-  z-index: 1;
-  position: absolute;
-}
+  .a-propos-bois {
+    background-image: url(../images/textureBois.jpg);
+    width: 100%;
+    height: 89vw;
+    background-size: 100% 100vw;
+    background-position: bottom;
+    z-index: 1;
+    position: absolute;
+  }
 
-.a-propos-stone {
-  top: 109vw;
-  background-position: top;
-  background-repeat: repeat;
-  height: 144vw;
-  width: 100%;
-  background-image: url(../images/RockTexture.jpg);
-  background-size: 100% 144vw;
-  position: absolute;
-}
+  .a-propos-stone {
+    top: 109vw;
+    background-position: top;
+    background-repeat: repeat;
+    height: 144vw;
+    width: 100%;
+    background-image: url(../images/RockTexture.jpg);
+    background-size: 100% 144vw;
+    position: absolute;
+  }
 
-.notre-equipe-bloc {
-  margin-top: 10.6vw;
-  width: 80%;
-  height: 108vw;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-}
+  .notre-equipe-bloc {
+    margin-top: 10.6vw;
+    width: 80%;
+    height: 108vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
 
-.notre-equipe-texte {
-  background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px) saturate(150%);
-  width: 100%;
-  height: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-bottom: 3vw;
-}
+  .notre-equipe-texte {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px) saturate(150%);
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 3vw;
+  }
 
-.faire-carriere-bouton-div {
-  width: 100%;
-  text-align: center;
-}
+  .faire-carriere-bouton-div {
+    width: 100%;
+    text-align: center;
+  }
 
-.faire-carriere-bouton {
-  text-align: center;
-  text-decoration: none;
-  color: #ffff;
+  .faire-carriere-bouton {
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
 
-  letter-spacing: 0px;
-  font-size: 3vw;
+    letter-spacing: 0px;
+    font-size: 3vw;
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-  padding: 0.75vw;
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    padding: 0.75vw;
 
-  padding-left: 2vw;
-  padding-right: 2vw;
-  border-style: solid;
-  border-color: rgb(207, 96, 40);
-  background-color: rgb(207, 96, 40);
-}
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-style: solid;
+    border-color: rgb(207, 96, 40);
+    background-color: rgb(207, 96, 40);
+  }
 
-.notre-equipe-image-bloc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60%;
-  width: 100%;
-}
+  .notre-equipe-image-bloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+  }
 
-.notre-equipe-image {
-  height: 70%;
-  width: auto;
-  min-height: 100px;
-}
+  .notre-equipe-image {
+    height: 70%;
+    width: auto;
+    min-height: 100px;
+  }
 
-.blur {
-  background-color: rgba(207, 205, 205, 0.4);
-  backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
-  height: 100%;
-  width: 100%;
-}
+  .blur {
+    background-color: rgba(207, 205, 205, 0.4);
+    backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
+    height: 100%;
+    width: 100%;
+  }
 
-.a-propos-bloc p {
-  text-align: center;
-}
+  .a-propos-bloc p {
+    text-align: center;
+  }
 
-.banderole-a-propos h {
-  text-decoration: none;
-  color: #14202e;
+  .banderole-a-propos h {
+    text-decoration: none;
+    color: #14202e;
 
-  letter-spacing: 0px;
-  font-size: 6vw;
+    letter-spacing: 0px;
+    font-size: 6vw;
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-}
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
 
-.a-propos-bloc h2 {
-  font-size: 6.8vw;
-  font-family: "Open sans", sans-serif;
-  color: #14202e;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: underline;
-}
+  .a-propos-bloc h2 {
+    font-size: 6.8vw;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+  }
 
-.a-propos-bloc p {
-  margin: 0vw 3vw;
-  text-align: justify;
-  font-size: 2.2vw;
-  font-family: "Open sans", sans-serif;
-  color: #14202e;
-  font-weight: 700;
-  max-height: fill-available;
+  .a-propos-bloc p {
+    margin: 0vw 3vw;
+    text-align: justify;
+    font-size: 2.2vw;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 700;
+    max-height: fill-available;
+  }
 }
 
 

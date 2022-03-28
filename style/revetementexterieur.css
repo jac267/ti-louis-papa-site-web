@@ -2,19 +2,21 @@
   position: relative;
 
   width: 100%;
-  height: 35vw;
+  height: 100%;
 }
 .bg-revetement {
   position: absolute;
   width: 100%;
   height: 107.5%;
   background-image: url(../images/RockTexture.jpg);
+  z-index: -1;
 
   background-position: top;
   background-repeat: repeat;
   background-size: cover;
 }
 .blur-revetement {
+  z-index: -1;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
@@ -26,7 +28,6 @@
   text-align: center;
   justify-content: space-around;
   vertical-align: middle;
-  position: absolute;
 
   width: 100%;
   height: 7.5vw;

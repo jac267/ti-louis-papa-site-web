@@ -1,8 +1,9 @@
 .renovation-main-div {
-  position: relative;
 
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 15vw;
+  height: 55vw;
 
   top: 100vw;
 }
@@ -22,9 +23,8 @@
 .renovation-exterieur-main-titre {
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center;
   vertical-align: middle;
-  position: absolute;
 
   width: 100%;
   height: 7.5vw;

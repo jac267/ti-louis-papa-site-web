@@ -7,15 +7,25 @@ function mouseUp() {
   mouse_isDown = false;
 }
 
-function update(event) {
+function update(event, touche) {
+  
+  console.log("hit");
   if (mouse_isDown == true) {
-    new_posXPourcent = moveTheComparaitionBar(event);
+    new_posXPourcent = moveTheComparaitionBar(event, touche);
     hideOrShowMoreOfTheImages("revetement-exterieur-before", new_posXPourcent);
   }
+  
 }
-function moveTheComparaitionBar(event) {
-  cursar_posX = event.pageX;
-  cursar_posY = event.pageY;
+function moveTheComparaitionBar(event, istouche) {
+  if (istouche){
+    cursar_posX = event.touches[0].clientX;
+    cursar_posY = event.touches[0].clientY;
+  }
+  else {
+    cursar_posX = event.pageX;
+    cursar_posY = event.pageY;
+  }
+  
 
   box = document.getElementById("images-comparaition-container");
   box_posX = box.getBoundingClientRect().left;

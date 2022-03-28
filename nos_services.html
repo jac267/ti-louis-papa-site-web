@@ -153,22 +153,27 @@
   
         <div
           class="revetement-exterieur-content"
-          onmousemove="update(event);"
-          onmousedown="update(event);"
+          onmousemove="update(event, false);"
+          onmousedown="update(event, false);"
+          ontouchmove="update(event, true);"
+         
         >
           <div class="container" id="images-comparaition-container">
             <button
               class="sliding-bar-comparaition"
               id="revetement-bar"
               onmousedown="mouseDown()"
+              ontouchstart="mouseDown()"
               onmouseup="mouseUp()"
+              ontouchend="mouseUp()"
+              
             >
               <div class="sliding-bar-comparaition-circle">
                 <i class="fa-solid fa-caret-left"></i>
                 <i class="fa-solid fa-caret-right"></i>
               </div>
             </button>
-            <div class="background-img-fr">
+            <div class="background-img-fr" >
             </div> 
             <div class="foreground-img-fr" id="revetement-exterieur-before">
             </div>

@@ -1,245 +1,536 @@
-.terrasse-main-div {
-  position: relative;
+@media screen and (max-width: 800px) {
+  .terrasse-main-div {
+    position: relative;
 
-  width: 100%;
-  height: 30vw;
-  margin-top: 10%;
+    width: 100%;
+    height: 30vw;
+    margin-top: 10%;
+  }
+  .bg-terrasse {
+    position: absolute;
+    top: 82%;
+    width: 100%;
+    height: 211.5%;
+
+    background-image: url(../images/textureBois.jpg);
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .terrasse-exterieur-main-titre {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    position: absolute;
+
+    width: 100%;
+    height: 7.5vw;
+  }
+
+  .terrasse-exterieur-main-titre-rect {
+    height: 0.4vw;
+    width: 5.4vw;
+    border-radius: 1vw;
+    list-style: none;
+    margin-top: 3.6vw;
+    background-color: rgb(207, 96, 40);
+  }
+
+  .terrasse-exterieur-main-titre h {
+    text-decoration: none;
+    color: #14202e;
+
+    padding-top: 1.15vw;
+    letter-spacing: 0px;
+    font-size: 3.5vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .terrasse-exterieur-content {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    top: 20%;
+
+    margin-left: 5.25vw;
+
+    width: 88vw;
+    height: 35vw;
+
+    display: flex;
+
+    background-color: #14202e;
+
+    backdrop-filter: blur(10px);
+  }
+  .terrasse-div {
+    top: 0.75vw;
+    position: relative;
+    width: 100%;
+    height: 137.5vw;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 6vw;
+
+    background: linear-gradient(
+      to top,
+      #ffffff 0%,
+      #ffffff 10%,
+      #9c9e9f 10%,
+      #9c9e9f 77.5%,
+      rgb(255, 255, 255) 77.5%,
+      rgb(255, 255, 255) 100%
+    );
+  }
+
+  .terrasse-sub-div {
+    position: relative;
+
+    width: 88vw;
+    height: 100vw;
+    display: inline;
+
+    backdrop-filter: blur(10px);
+    border-bottom-left-radius: 2.5vw;
+    background: linear-gradient(
+      to top,
+      rgb(230, 230, 230) 0%,
+      rgb(184, 182, 182) 40%,
+      rgb(184, 182, 182) 100%
+    );
+    border-bottom-right-radius: 2.5vw;
+    box-shadow: 2px 2px 20px rgb(40, 40, 40);
+  }
+
+  .terrasse-carousel {
+    width: 100%;
+    height: 50vw;
+
+    position: relative;
+  }
+
+  .carousel2 {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .resentrer-bottom {
+    object-position: bottom;
+  }
+  .button-left-right-div {
+    position: relative;
+    width: 100%;
+    height: 20%;
+
+    top: -55%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .terrasse-carousel button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .terrasse-carousel i:hover {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .terrasse-carousel i {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 10vw;
+    text-shadow: 2px 5px 5px black;
+  }
+  .btn-left {
+    text-align: center;
+    height: 100%;
+    width: 10%;
+  }
+  .btn-right {
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+  }
+  .terrasse-text {
+    width: 100%;
+    height: 50vw;
+    text-align: center;
+    background: linear-gradient(
+      to top,
+      rgb(230, 230, 230) 0%,
+      rgb(184, 182, 182) 100%
+    );
+    border-bottom-right-radius: 2.5vw;
+    border-bottom-left-radius: 2.5vw;
+    display: inline;
+    justify-content: space-between;
+  }
+
+  .terrasse-text-header {
+    height: 12.5%;
+    width: 100%;
+
+    padding-top: 1vw;
+  }
+
+  .terrasse-text-header h1 {
+    font-size: 5.5vw;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+  }
+
+  .terrasse-text-header h2 {
+    color: #14202e;
+
+    letter-spacing: 0px;
+    font-size: 2.25vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .terrasse-text-list {
+    width: 100%;
+    height: 29%;
+  }
+
+  .terrasse-text-list-elements {
+    text-align: left;
+    height: 4.5vw;
+    list-style: none;
+    padding-left: 12.5%;
+    justify-content: space-around;
+  }
+
+  .terrasse-text-list-elements i {
+    color: rgb(207, 96, 40);
+    font-size: 1.25vw;
+    padding-right: 1vw;
+  }
+  .terrasse-text-list-elements h {
+    color: #14202e;
+
+    font-size: 2.25vw;
+    font-weight: 600;
+    font-family: "Open sans", sans-serif;
+  }
+  .terrasse-text-button-div {
+    width: 100%;
+
+    height: 10%;
+  }
+
+  .terrasse-text-button {
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+
+    letter-spacing: 0px;
+    font-size: 2.25vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    padding: 1.5vw;
+
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-style: solid;
+    border-color: rgb(207, 96, 40);
+    background-color: rgb(207, 96, 40);
+  }
 }
-.bg-terrasse {
-  position: absolute;
-  top: 82%;
-  width: 100%;
-  height: 211.5%;
+/*
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
-  background-image: url(../images/textureBois.jpg);
+*/
+@media screen and (min-width: 800px) {
+  .terrasse-main-div {
+    position: relative;
 
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    width: 100%;
+    height: 30vw;
+    margin-top: 10%;
+  }
+  .bg-terrasse {
+    position: absolute;
+    top: 82%;
+    width: 100%;
+    height: 211.5%;
 
-.terrasse-exterieur-main-titre {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  vertical-align: middle;
-  position: absolute;
+    background-image: url(../images/textureBois.jpg);
 
-  width: 100%;
-  height: 7.5vw;
-}
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.terrasse-exterieur-main-titre-rect {
-  height: 0.4vw;
-  width: 5.4vw;
-  border-radius: 1vw;
-  list-style: none;
-  margin-top: 3.6vw;
-  background-color: rgb(207, 96, 40);
-}
+  .terrasse-exterieur-main-titre {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    position: absolute;
 
-.terrasse-exterieur-main-titre h {
-  text-decoration: none;
-  color: #14202e;
+    width: 100%;
+    height: 7.5vw;
+  }
 
-  padding-top: 1.15vw;
-  letter-spacing: 0px;
-  font-size: 3.5vw;
+  .terrasse-exterieur-main-titre-rect {
+    height: 0.4vw;
+    width: 5.4vw;
+    border-radius: 1vw;
+    list-style: none;
+    margin-top: 3.6vw;
+    background-color: rgb(207, 96, 40);
+  }
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-}
+  .terrasse-exterieur-main-titre h {
+    text-decoration: none;
+    color: #14202e;
 
-.terrasse-exterieur-content {
-  position: relative;
+    padding-top: 1.15vw;
+    letter-spacing: 0px;
+    font-size: 3.5vw;
 
-  display: flex;
-  justify-content: center;
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
 
-  top: 20%;
+  .terrasse-exterieur-content {
+    position: relative;
 
-  margin-left: 5.25vw;
+    display: flex;
+    justify-content: center;
 
-  width: 88vw;
-  height: 35vw;
+    top: 20%;
 
-  display: flex;
+    margin-left: 5.25vw;
 
-  background-color: #14202e;
+    width: 88vw;
+    height: 35vw;
 
-  backdrop-filter: blur(10px);
-}
-.terrasse-div {
-  position: relative;
-  top: 20%;
-  width: 100%;
-  height: 22.5vw;
+    display: flex;
 
-  display: flex;
-  justify-content: center;
-  padding-top: 2.5vw;
+    background-color: #14202e;
 
-  background: rgb(20, 32, 46);
-  box-shadow: inset 0 10px 30px rgba(255, 255, 255, 0.15);
-}
+    backdrop-filter: blur(10px);
+  }
+  .terrasse-div {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    height: 22.5vw;
 
-.terrasse-sub-div {
-  position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5vw;
 
-  width: 88vw;
-  height: 35vw;
+    background: rgb(20, 32, 46);
+    box-shadow: inset 0 10px 30px rgba(255, 255, 255, 0.15);
+  }
 
-  display: flex;
+  .terrasse-sub-div {
+    position: relative;
 
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
+    width: 88vw;
+    height: 35vw;
 
-  border-top-right-radius: 2.5vw;
-  border-bottom-right-radius: 2.5vw;
-}
+    display: flex;
 
-.terrasse-carousel {
-  width: 55%;
-  height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
 
-  position: relative;
-}
+    border-top-right-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+  }
 
-.carousel3 {
-  width: 100%;
-  height: 100%;
+  .terrasse-carousel {
+    width: 55%;
+    height: 100%;
 
-  object-fit: cover;
-}
+    position: relative;
+  }
 
-.button-left-right-div {
-  position: relative;
-  width: 100%;
-  height: 20%;
+  .carousel3 {
+    width: 100%;
+    height: 100%;
 
-  top: -55%;
+    object-fit: cover;
+  }
 
-  display: flex;
-  justify-content: space-between;
-}
+  .button-left-right-div {
+    position: relative;
+    width: 100%;
+    height: 20%;
 
-.terrasse-carousel button {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-}
-.terrasse-carousel i:hover {
-  color: rgba(255, 255, 255, 0.95);
-}
-.terrasse-carousel i {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 5.5vw;
-  z-index: 1000;
-  text-shadow: 2px 5px 5px black;
-}
+    top: -55%;
 
-.terrasse-text {
-  width: 45%;
-  height: 35vw;
-  text-align: center;
-}
+    display: flex;
+    justify-content: space-between;
+  }
 
-.terrasse-text-header {
-  height: 30%;
-  width: 100%;
+  .terrasse-carousel button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .terrasse-carousel i:hover {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .terrasse-carousel i {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 5.5vw;
+    z-index: 1000;
+    text-shadow: 2px 5px 5px black;
+  }
 
-  padding-top: 1.5vw;
-}
+  .terrasse-text {
+    width: 45%;
+    height: 35vw;
+    text-align: center;
+  }
 
-.terrasse-text-header h1 {
-  font-size: 4vw;
-  font-family: "Open sans", sans-serif;
-  color: #14202e;
-  font-weight: 600;
-}
+  .terrasse-text-header {
+    height: 30%;
+    width: 100%;
 
-.terrasse-text-header h2 {
-  color: #14202e;
-  padding-left: 17.5%;
-  padding-right: 17.5%;
-  letter-spacing: 0px;
-  font-size: 1.5vw;
+    padding-top: 1.5vw;
+  }
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-}
-.terrasse-text-and-icon {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  margin-top: 5%;
-  padding-bottom: 7.5%;
-}
-.btn-left {
-  text-align: center;
-  height: 100%;
-  width: 10%;
-}
-.btn-right {
-  height: 100%;
-  width: 10%;
-  text-align: center;
-  align-items: center;
-}
-.terrasse-icon {
-  object-fit: cover;
-  width: 25%;
-  height: 25%;
-  margin-right: 10%;
-  margin-top: 7.5%;
-}
+  .terrasse-text-header h1 {
+    font-size: 4vw;
+    font-family: "Open sans", sans-serif;
+    color: #14202e;
+    font-weight: 600;
+  }
 
-.terrasse-text-list {
-  width: 100%;
-  height: 50%;
-  margin-left: 5%;
-}
+  .terrasse-text-header h2 {
+    color: #14202e;
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+    letter-spacing: 0px;
+    font-size: 1.5vw;
 
-.terrasse-text-list-elements {
-  text-align: left;
-  padding-left: 12.5%;
-  padding-top: 0.25vw;
-}
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+  }
+  .terrasse-text-and-icon {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-bottom: 7.5%;
+  }
+  .btn-left {
+    text-align: center;
+    height: 100%;
+    width: 10%;
+  }
+  .btn-right {
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+  }
+  .terrasse-icon {
+    object-fit: cover;
+    width: 25%;
+    height: 25%;
+    margin-right: 10%;
+    margin-top: 7.5%;
+  }
 
-.terrasse-text-list-elements i {
-  color: rgb(207, 96, 40);
-  font-size: 1vw;
-  padding-right: 1vw;
-}
-.terrasse-text-list-elements h {
-  color: #14202e;
-  font-size: 1.5vw;
-  font-weight: 600;
-  font-family: "Open sans", sans-serif;
-}
-.terrasse-text-button-div {
-  width: 100%;
-}
+  .terrasse-text-list {
+    width: 100%;
+    height: 50%;
+    margin-left: 5%;
+  }
 
-.terrasse-text-button {
-  text-align: center;
-  text-decoration: none;
-  color: #ffff;
+  .terrasse-text-list-elements {
+    text-align: left;
+    padding-left: 12.5%;
+    padding-top: 0.25vw;
+  }
 
-  letter-spacing: 0px;
-  font-size: 1.5vw;
+  .terrasse-text-list-elements i {
+    color: rgb(207, 96, 40);
+    font-size: 1vw;
+    padding-right: 1vw;
+  }
+  .terrasse-text-list-elements h {
+    color: #14202e;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: "Open sans", sans-serif;
+  }
+  .terrasse-text-button-div {
+    width: 100%;
+  }
 
-  font-family: "Open sans", sans-serif;
-  font-weight: 600;
-  padding: 0.75vw;
+  .terrasse-text-button {
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
 
-  padding-left: 2vw;
-  padding-right: 2vw;
-  border-style: solid;
-  border-color: rgb(207, 96, 40);
-  background-color: rgb(207, 96, 40);
+    letter-spacing: 0px;
+    font-size: 1.5vw;
+
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    padding: 0.75vw;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-style: solid;
+    border-color: rgb(207, 96, 40);
+    background-color: rgb(207, 96, 40);
+  }
 }

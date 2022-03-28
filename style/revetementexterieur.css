@@ -80,7 +80,7 @@
   height: 100%;
 }
 
-.background-img-fr{
+.background-img-fr {
   position: absolute;
 
   top: 0%;
@@ -96,7 +96,7 @@
   -o-user-select: none;
   user-select: none;
 }
-.foreground-img-fr{
+.foreground-img-fr {
   position: absolute;
 
   top: 0%;
@@ -114,7 +114,7 @@
   width: 50%;
 }
 
-.background-img-en{
+.background-img-en {
   position: absolute;
 
   top: 0%;
@@ -130,7 +130,7 @@
   -o-user-select: none;
   user-select: none;
 }
-.foreground-img-en{
+.foreground-img-en {
   position: absolute;
 
   top: 0%;

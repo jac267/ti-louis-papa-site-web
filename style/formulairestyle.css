@@ -1,4 +1,4 @@
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .formulaire-container {
     position: relative;
 
@@ -29,7 +29,7 @@
   }
 
   .air1 {
-    display:none;
+    display: none;
     grid-area: air1;
     grid-column-start: 2;
     grid-column-end: 28;
@@ -37,7 +37,7 @@
     grid-row-end: 10;
   }
   .air2 {
-    display:none;
+    display: none;
     grid-area: air2;
     grid-column-start: 28;
     grid-column-end: 56;
@@ -45,7 +45,7 @@
     grid-row-end: 2;
   }
   .air3 {
-    display:none;
+    display: none;
     grid-area: air3;
 
     grid-column-start: 56;
@@ -54,7 +54,7 @@
     grid-row-end: 10;
   }
   .air4 {
-    display:none;
+    display: none;
     grid-area: air4;
     grid-column-start: 2;
     grid-column-end: 10;
@@ -62,7 +62,7 @@
     grid-row-end: 40;
   }
   .air5 {
-    display:none;
+    display: none;
     grid-area: air5;
     grid-column-start: 74;
     grid-column-end: 84;
@@ -70,7 +70,7 @@
     grid-row-end: 40;
   }
   .air6 {
-    display:none;
+    display: none;
     grid-area: air6;
     grid-column-start: 10;
     grid-column-end: 36;
@@ -78,7 +78,7 @@
     grid-row-end: 40;
   }
   .air7 {
-    display:none;
+    display: none;
     grid-area: air7;
     grid-column-start: 48;
     grid-column-end: 74;
@@ -214,6 +214,7 @@
     width: 100%;
     max-width: 100%;
     height: 100%;
+
     overflow: inherit;
     text-overflow: inherit;
     word-wrap: break-word;
@@ -352,8 +353,8 @@
     position: absolute;
     background-color: rgba(112, 111, 111, 0.3);
 
-    left: 5%;
-    min-width: 90%;
+    left: 10%;
+    min-width: 80%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
@@ -462,19 +463,7 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 800px){
+@media (min-width: 800px) {
   .formulaire-container {
     position: relative;
 

@@ -79,6 +79,7 @@
     display: block;
 
     z-index: 2;
+    box-shadow: 2px 2px 20px rgb(40, 40, 40);
   }
   .container {
     position: relative;

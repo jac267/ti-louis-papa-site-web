@@ -18,7 +18,7 @@
       rgb(208, 207, 207) 75%,
       rgb(184, 182, 182) 100%
     );
-    z-index: 0;
+    z-index: -1;
   }
   .renovation-exterieur-main-titre {
     display: flex;

@@ -222,10 +222,10 @@
       #9c9e9f 30%,
       #9c9e9f 100%
     );
-    transform: rotate(180deg);
   }
 
   .commercial-sub-div {
+    transform: rotate(180deg);
     position: relative;
 
     width: 88vw;

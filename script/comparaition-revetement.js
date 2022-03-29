@@ -8,39 +8,35 @@ function mouseUp() {
 }
 
 function update(event, touche) {
-  
-  console.log("hit");
   if (mouse_isDown == true) {
     new_posXPourcent = moveTheComparaitionBar(event, touche);
     hideOrShowMoreOfTheImages("revetement-exterieur-before", new_posXPourcent);
   }
-  
 }
 function moveTheComparaitionBar(event, istouche) {
-  if (istouche){
+  if (istouche) {
     cursar_posX = event.touches[0].clientX;
     cursar_posY = event.touches[0].clientY;
-  }
-  else {
+  } else {
     cursar_posX = event.pageX;
     cursar_posY = event.pageY;
   }
-  
 
   box = document.getElementById("images-comparaition-container");
   box_posX = box.getBoundingClientRect().left;
   boxWidth = box.offsetWidth;
 
   bar = document.getElementById("revetement-bar");
-  console.log(cursar_posX);
+
   new_posX = cursar_posX - box_posX;
   if (new_posX > boxWidth) {
     new_posX = boxWidth;
   } else if (new_posX < 0) {
     new_posX = 0;
   }
+  console.log(boxWidth);
 
-  new_posXPourcent = (new_posX / boxWidth) * 100;
+  new_posXPourcent = (new_posX / (boxWidth + bar.clientWidth)) * 100;
   bar.style.left = `${new_posXPourcent}%`;
 
   return (new_posX / boxWidth) * 100;

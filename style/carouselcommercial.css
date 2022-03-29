@@ -222,6 +222,7 @@
       #9c9e9f 30%,
       #9c9e9f 100%
     );
+    transform: rotate(180deg);
   }
 
   .commercial-sub-div {
@@ -240,6 +241,7 @@
   }
 
   .commercial-carousel {
+    transform: rotate(180deg);
     width: 55%;
     height: 100%;
 
@@ -294,6 +296,7 @@
     align-items: center;
   }
   .commercial-text {
+    transform: rotate(180deg);
     width: 45%;
     height: 35vw;
     text-align: center;

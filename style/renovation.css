@@ -1,40 +1,41 @@
 @media screen and (max-width: 800px) {
   .renovation-main-div {
-
+    margin-top: 5vw;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 110vw;
+    height: 160vw;
   }
 
   .renovation-bg2 {
-    top: 133%;
+    position: absolute;
+    top: 400vw;
     width: 100%;
-    height: 15vw;
+    height: 120vw;
     background: linear-gradient(
       to top,
       rgb(255, 255, 255) 0%,
       rgb(208, 207, 207) 75%,
       rgb(184, 182, 182) 100%
     );
+    z-index:0;
   }
   .renovation-exterieur-main-titre {
     display: flex;
-    text-align: center;
-    justify-content: center;
-    vertical-align: middle;
+    align-items: center;
+    justify-content: space-around;
 
     width: 100%;
-    height: 7.5vw;
+    height: 11.25vw;
     background-color: rgba(255, 255, 255, 0.7);
+    z-index: 2;
   }
 
   .renovation-exterieur-main-titre-rect {
-    height: 0.4vw;
-    width: 5.4vw;
+    height: 0.6vw;
+    width: 8.1vw;
     border-radius: 1vw;
     list-style: none;
-    margin-top: 3.6vw;
     background-color: rgb(207, 96, 40);
   }
 
@@ -42,16 +43,14 @@
     text-decoration: none;
     color: #14202e;
 
-    padding-top: 1.15vw;
     letter-spacing: 0px;
-    font-size: 3.5vw;
+    font-size: 5.25vw;
 
     font-family: "Open sans", sans-serif;
     font-weight: 600;
   }
 
   .renovation-exterieur-content {
-    position: relative;
 
     display: flex;
     justify-content: center;
@@ -70,24 +69,25 @@
     backdrop-filter: blur(10px);
   }
   .renovation-div {
-    position: relative;
     width: 100%;
-    height: 37vw;
+    height: 100%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 2.5vw;
+
+    z-index: 2;
   }
 
   .renovation-sub-div {
-    position: relative;
 
     width: 88vw;
-    height: 35vw;
+    height: 90%;
 
     display: flex;
+    flex-direction: column-reverse;
 
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
@@ -97,10 +97,9 @@
   }
 
   .renovation-carousel {
-    width: 55%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
 
-    position: relative;
   }
 
   .carousel4 {
@@ -111,7 +110,6 @@
   }
 
   .button-left-right-div {
-    position: relative;
     width: 100%;
     height: 20%;
 
@@ -143,26 +141,27 @@
   }
   .renovation-carousel i {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 5.5vw;
+    font-size: 10vw;
     z-index: 999;
     text-shadow: 2px 5px 5px black;
   }
 
   .renovation-text {
-    width: 45%;
-    height: 35vw;
+    width: 100%;
+    height: 50%;
     text-align: center;
   }
 
   .renovation-text-header {
     height: 30%;
-    width: 100%;
+    width: 90%;
 
+    margin-left: 5%;
     padding-top: 3vw;
   }
 
   .renovation-text-header h1 {
-    font-size: 3.5vw;
+    font-size: 5vw;
     font-family: "Open sans", sans-serif;
     color: #14202e;
     font-weight: 600;
@@ -174,7 +173,7 @@
     padding-right: 10%;
 
     letter-spacing: 0px;
-    font-size: 1.5vw;
+    font-size: 3vw;
 
     font-family: "Open sans", sans-serif;
     font-weight: 600;
@@ -183,16 +182,16 @@
     display: flex;
     text-align: center;
     justify-content: space-around;
-    margin-top: 7.5%;
-    padding-bottom: 10%;
+    margin-top: 5%;
+    padding-bottom: 7%;
   }
 
   .renovation-icon {
     object-fit: cover;
     width: 30%;
     height: 30%;
-    margin-right: 10%;
-    margin-top: 17.5%;
+    margin-right: 5vw;
+    margin-top: 8vw;
   }
 
   .renovation-text-list {
@@ -209,12 +208,12 @@
 
   .renovation-text-list-elements i {
     color: rgb(207, 96, 40);
-    font-size: 1vw;
+    font-size: 1.875vw;
     padding-right: 1vw;
   }
   .renovation-text-list-elements h {
     color: #14202e;
-    font-size: 1.25vw;
+    font-size: 3vw;
     font-weight: 600;
     font-family: "Open sans", sans-serif;
   }
@@ -234,16 +233,11 @@
     text-align: center;
     text-decoration: none;
     color: #ffff;
-
     letter-spacing: 0px;
-    font-size: 1.5vw;
-
+    font-size: 3vw;
     font-family: "Open sans", sans-serif;
     font-weight: 600;
-    padding: 0.75vw;
-
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding: 1.5vw;
     border-style: solid;
     border-color: rgb(207, 96, 40);
     background-color: rgb(207, 96, 40);

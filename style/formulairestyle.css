@@ -6,6 +6,8 @@
     height: 165vw;
 
     list-style: none;
+
+    z-index: 2;
   }
   .formulaire-container-img {
     position: relative;

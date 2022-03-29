@@ -9,9 +9,9 @@
   }
   .bg-terrasse {
     position: absolute;
-    top: 100%;
+    top: 180vw;
     width: 100%;
-    height: 120vw;
+    height: 230vw;
 
     background-image: url(../images/textureBois.jpg);
 

@@ -349,7 +349,7 @@
 
   .dropdown-content input {
     color: black;
-
+    border-top: 1vw solid rgb(113, 115, 116);
     min-width: 100%;
     text-decoration: none;
     display: block;
@@ -361,7 +361,7 @@
     padding-bottom: 1.5%;
     background-color: rgb(170, 170, 170);
     border: 0px;
-    border-top: 0.5vw solid rgb(113, 115, 116);
+    /*border-top: 1vw solid rgb(113, 115, 116);*/
     border-bottom: 0.5vw solid rgb(113, 115, 116);
 
     color: rgb(88, 95, 104);

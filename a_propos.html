@@ -38,32 +38,34 @@
     <!-- Initialisation de block de code html -->
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
-      $.get("template/nav-bar.html", function (data) {
-        $("#nav-placeholder").replaceWith(data);
-      });
-    </script>
-    <script>
-      $.get("template/formulaire.html", function (data) {
-        $("#formulaire-placeholder").replaceWith(data);
-      });
-    </script>
-    <script>
-      $.get("template/footer-bar.html", function (data) {
-        $("#footer-bar-placeholder").replaceWith(data);
-      });
+      function importTemplate() {
+        $.get("template/nav-bar.html", function (data) {
+          $("#nav-placeholder").replaceWith(data);
+        });
+        $.get("template/formulaire.html", function (data) {
+          $("#formulaire-placeholder").replaceWith(data);
+        });
+        $.get("template/footer-bar.html", function (data) {
+          $("#footer-bar-placeholder").replaceWith(data);
+        });
+      }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209562480-1">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-209562480-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-209562480-1');
+      gtag("config", "UA-209562480-1");
     </script>
   </head>
-  <body onload="setLanguage()">
+  <body onload="setLanguage(); importTemplate()">
     <div id="nav-placeholder"></div>
 
     <div class="espacement-100"></div>
@@ -102,8 +104,7 @@
             pour s'assurer qu'ils disposent du meilleur service possible.
             <br /><br />
             Nous sommes spécialisés dans l'installation de revêtement extérieur,
-            la construction de patios/terasses et la rénovation de tous
-            genres.
+            la construction de patios/terasses et la rénovation de tous genres.
           </p>
         </div>
       </div>

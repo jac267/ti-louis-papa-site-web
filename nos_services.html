@@ -53,33 +53,35 @@
     <!-- Initialisation de block de code html -->
     <script src="//code.jquery.com/jquery.min.js"></script>
     <script>
-      $.get("template/nav-bar.html", function (data) {
-        $("#nav-placeholder").replaceWith(data);
-      });
-    </script>
-    <script>
-      $.get("template/formulaire.html", function (data) {
-        $("#formulaire-placeholder").replaceWith(data);
-      });
-    </script>
-    <script>
-      $.get("template/footer-bar.html", function (data) {
-        $("#footer-bar-placeholder").replaceWith(data);
-      });
+      function importTemplate() {
+        $.get("template/nav-bar.html", function (data) {
+          $("#nav-placeholder").replaceWith(data);
+        });
+        $.get("template/formulaire.html", function (data) {
+          $("#formulaire-placeholder").replaceWith(data);
+        });
+        $.get("template/footer-bar.html", function (data) {
+          $("#footer-bar-placeholder").replaceWith(data);
+        });
+      }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-209562480-1">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-209562480-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-209562480-1');
+      gtag("config", "UA-209562480-1");
     </script>
   </head>
 
-  <body onload="setLanguage()">
+  <body onload="setLanguage(); importTemplate()">
     <div id="nav-placeholder"></div>
 
     <div class="espacement-100"></div>
@@ -97,7 +99,7 @@
     <div class="contenu-nos-services">
       <div class="nos-services-head-main-div">
         <div class="background1"></div>
-  
+
         <div class="background2"></div>
         <div class="blur-background2"></div>
         <div class="nos-services-title-bar">
@@ -109,7 +111,7 @@
           <div></div>
           <div></div>
         </div>
-  
+
         <div class="nos-services-sub-div">
           <div class="nos-services-revetement-sub-div">
             <div class="nos-services-revetement-text">
@@ -160,13 +162,12 @@
           <div></div>
           <div></div>
         </div>
-  
+
         <div
           class="revetement-exterieur-content"
           onmousemove="update(event, false);"
           onmousedown="update(event, false);"
           ontouchmove="update(event, true);"
-         
         >
           <div class="container" id="images-comparaition-container">
             <button
@@ -176,19 +177,19 @@
               ontouchstart="mouseDown()"
               onmouseup="mouseUp()"
               ontouchend="mouseUp()"
-              
             >
               <div class="sliding-bar-comparaition-circle">
                 <i class="fa-solid fa-caret-left"></i>
                 <i class="fa-solid fa-caret-right"></i>
               </div>
             </button>
-            <div class="background-img-fr" >
-            </div> 
-            <div class="foreground-img-fr" id="revetement-exterieur-before">
-            </div>
+            <div class="background-img-fr"></div>
+            <div
+              class="foreground-img-fr"
+              id="revetement-exterieur-before"
+            ></div>
           </div>
-  
+
           <div class="revetement-text">
             <div class="revetement-text-header">
               <h1>Transformez&nbsp;l'extérieur</h1>
@@ -222,7 +223,7 @@
           <div></div>
           <div></div>
         </div>
-  
+
         <div class="terrasse-div">
           <div class="terrasse-sub-div">
             <div
@@ -275,7 +276,8 @@
               <div class="terrasse-text-header">
                 <h1>Qualité garantie</h1>
                 <h2>
-                  Nous nous assurons que le service offert rencontre vos attentes
+                  Nous nous assurons que le service offert rencontre vos
+                  attentes
                 </h2>
               </div>
               <div class="terrasse-text-and-icon">
@@ -331,8 +333,8 @@
               <div class="renovation-text-header">
                 <h1>Faites-nous&nbsp;confiance!</h1>
                 <h2>
-                  Notre équipe saura répondre a vos besoins en terme de rénovation
-                  et de construction
+                  Notre équipe saura répondre a vos besoins en terme de
+                  rénovation et de construction
                 </h2>
               </div>
               <div class="renovation-text-and-icon">
@@ -340,13 +342,15 @@
                   <div class="renovation-text-list-elements">
                     <i class="fa-solid fa-circle"></i>
                     <h>Planchers&nbsp;(bois&nbsp;franc,</h>
-                    <h class="renovation-text-exeption">céramique, laminé...)</h>
+                    <h class="renovation-text-exeption"
+                      >céramique, laminé...)</h
+                    >
                   </div>
                   <div class="renovation-text-list-elements">
                     <i class="fa-solid fa-circle"></i>
                     <h>Conception&nbsp;de&nbsp;sous-sol</h>
                   </div>
-  
+
                   <div class="renovation-text-list-elements">
                     <i class="fa-solid fa-circle"></i>
                     <h>Salles&nbsp;de&nbsp;bains</h>

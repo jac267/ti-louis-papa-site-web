@@ -31,6 +31,12 @@
       if (current_L == "fr-FR" || current_L == "fr") {
         setButtonLanguages("EN");
       }
+      pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
+      triangle = document.getElementById(`triangle-${pageName}`);
+      console.log(pageName);
+      triangle.id = "triangle";
+      console.log(triangle);
+      
     </script>
     <script src="script/burgeropening.js"></script>
     <link
@@ -63,7 +69,7 @@
             </li>
             <li class="button-sub-sub-line">
               <dict class="rect-links"></dict>
-              <rect class="triangle"></rect>
+              <rect id="triangle-nous-contacter"></rect>
             </li>
           </ul>
 
@@ -75,6 +81,7 @@
             </li>
             <li class="button-sub-sub-line">
               <dict class="rect-links"></dict>
+              <rect id="triangle-index"></rect>
             </li>
           </ul>
 
@@ -88,6 +95,7 @@
             </li>
             <li class="button-sub-sub-line">
               <dict class="rect-links"></dict>
+              <rect id="triangle-nos_services"></rect>
             </li>
           </ul>
 
@@ -101,6 +109,7 @@
             </li>
             <li class="button-sub-sub-line">
               <dict class="rect-links"></dict>
+              <rect id="triangle-carrieres"></rect>
             </li>
           </ul>
 
@@ -114,6 +123,7 @@
             </li>
             <li class="button-sub-sub-line">
               <dict class="rect-links"></dict>
+              <rect id="triangle-a_propos"></rect>
             </li>
           </ul>
         </div>

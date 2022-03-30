@@ -44,19 +44,7 @@
     />
     <!-- Initialisation de block de code html -->
     <script src="//code.jquery.com/jquery.min.js"></script>
-    <script>
-      function importTemplate() {
-        $.get("template/nav-bar.html", function (data) {
-          $("#nav-placeholder").replaceWith(data);
-        });
-        $.get("template/formulaire.html", function (data) {
-          $("#formulaire-placeholder").replaceWith(data);
-        });
-        $.get("template/footer-bar.html", function (data) {
-          $("#footer-bar-placeholder").replaceWith(data);
-        });
-      }
-    </script>
+    <script src="script/templateimportation.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async

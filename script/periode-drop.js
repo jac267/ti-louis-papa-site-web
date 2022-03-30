@@ -6,10 +6,7 @@ function dropDownMenuCLick() {
     content.style.display = "block";
     on = true;
   } else {
-    var content = document.getElementById("dropdown-content1");
-    content.style.display = "none";
-    console.log("none");
-    on = false;
+    dropDownMenuLeave();
   }
 }
 

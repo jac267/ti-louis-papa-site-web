@@ -327,9 +327,9 @@
   .fa-angle-down {
     position: absolute;
     left: 85%;
-    font-size: 2vw;
+    font-size: 4vw;
     color: rgb(112, 111, 111);
-    padding-top: 3.5%;
+    top: 55%;
 
     overflow: inherit;
     text-overflow: inherit;

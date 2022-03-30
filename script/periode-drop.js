@@ -26,6 +26,7 @@ function dropDownMenuLeave() {
   };
   var content = document.getElementById("dropdown-content1");
   content.style.display = "none";
+  on = false;
   var box = document.getElementById("periode");
   var compteur = 0;
 

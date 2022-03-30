@@ -1,15 +1,21 @@
 on = false;
 btn_status = [false, false, false];
 function dropDownMenuCLick() {
-  var content = document.getElementById("dropdown-content1");
-  content.style.display = "block";
+  if (on == false) {
+    var content = document.getElementById("dropdown-content1");
+    content.style.display = "block";
+    on = true;
+  } else {
+    var content = document.getElementById("dropdown-content1");
+    content.style.display = "none";
+    console.log("none");
+    on = false;
+  }
 }
 
 function dropDownMenuHover() {
   var content = document.getElementById("dropdown-content1");
   content.style.display = "block";
-  alert();
-  on = true;
 }
 
 function dropDownMenuLeave() {
@@ -42,9 +48,6 @@ function gotChecked(nb) {
   if (btn_status[parseInt(nb)] == false) {
     var content = document.getElementById("btn-periode" + nb);
     content.style.backgroundColor = "rgb(170, 170, 170)";
-
-    color: rgb(88, 95, 104);
-    color: rgb(88, 95, 104);
   } else {
     var content = document.getElementById("btn-periode" + nb);
     content.style.backgroundColor = "rgb(255, 255, 255)";

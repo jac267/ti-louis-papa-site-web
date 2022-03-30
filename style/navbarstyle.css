@@ -190,7 +190,7 @@
   }
   #triangle {
     position: absolute;
-    top: 2.5%;
+
     left: 5.5%;
     transform: rotate(90deg);
     width: 0;

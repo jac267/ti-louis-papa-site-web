@@ -357,17 +357,17 @@
   .button-periode {
     width: 100%;
     height: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     background-color: rgb(170, 170, 170);
-
-    border-top: 0.1vw solid rgb(113, 115, 116);
-    border-bottom: 0.1vw solid rgb(113, 115, 116);
+    border: 0px;
+    border-top: 0.5vw solid rgb(113, 115, 116);
+    border-bottom: 0.5vw solid rgb(113, 115, 116);
 
     color: rgb(88, 95, 104);
     font-family: "Open sans", Extra-bold 800;
     font-weight: 900;
-    font-size: 0.9vw;
+    font-size: 2.25vw;
   }
 
   /*
@@ -835,6 +835,7 @@
     padding-bottom: 2%;
     background-color: rgb(170, 170, 170);
 
+    border: 0px;
     border-top: 0.1vw solid rgb(113, 115, 116);
     border-bottom: 0.1vw solid rgb(113, 115, 116);
 

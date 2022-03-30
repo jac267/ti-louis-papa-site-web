@@ -559,7 +559,16 @@
 
     background-color: rgb(207, 96, 40);
   }
-
+  .triangle {
+    position: absolute;
+    top: 70px;
+    transform: rotate(180deg);
+    width: 0;
+    height: 0;
+    border: 14px solid transparent;
+    border-top: 0;
+    border-bottom: 14px solid rgb(207, 96, 40);
+  }
   .button-div-800 ul:hover .rect-links {
     width: 10px;
     height: 3px;
@@ -571,7 +580,18 @@
     background-color: rgb(207, 96, 40);
     transition: 1s ease-in-out;
   }
+  .button-div-800 ul:hover .triangle {
+    width: 10px;
+    height: 3px;
+    border: 0px solid transparent;
+    border-top: 0;
+    border-bottom: 0px solid rgb(207, 96, 40);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 
+    transition: 1s ease-in-out;
+  }
   .button-ul {
     display: flex;
 

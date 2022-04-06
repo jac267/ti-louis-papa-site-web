@@ -241,19 +241,35 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 800px) {
   .renovation-main-div {
+    margin-top: 20vw;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 110vw;
+    height: 55vw;
 
-    top: 100vw;
   }
 
   .renovation-bg2 {
     position: absolute;
-    top: 133%;
+    top: 200vw;
     width: 100%;
     height: 15vw;
     background: linear-gradient(
@@ -266,12 +282,14 @@
   .renovation-exterieur-main-titre {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     vertical-align: middle;
 
     width: 100%;
     height: 7.5vw;
     background-color: rgba(255, 255, 255, 0.7);
+
+    z-index: 2;
   }
 
   .renovation-exterieur-main-titre-rect {
@@ -315,8 +333,6 @@
     backdrop-filter: blur(10px);
   }
   .renovation-div {
-    position: relative;
-    top: 40%;
     width: 100%;
     height: 22.5vw;
 

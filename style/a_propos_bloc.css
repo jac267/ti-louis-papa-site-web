@@ -1,16 +1,11 @@
 @media (max-width: 800px){
-  .credit-bar-div-flex {
-    position: relative;
-    top: 5.5vw;
-  }
-
   .a-propos-bloc {
-    background-color: #14202e;
     width: 100%;
-    height: 100%;
+    height: 235vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+
   }
 
   .banderole-a-propos {
@@ -92,20 +87,20 @@
   }
 
   .a-propos-stone {
-    top: 109vw;
     background-position: top;
     background-repeat: repeat;
-    height: 144vw;
+    height: 235vw;
     width: 100%;
     background-image: url(../images/RockTexture.jpg);
     background-size: 100% 144vw;
     position: absolute;
+    z-index: -1;
   }
 
   .notre-equipe-bloc {
     margin-top: 10.6vw;
     width: 80%;
-    height: 108vw;
+    height: 103vw;
     position: relative;
     display: flex;
     flex-direction: column;

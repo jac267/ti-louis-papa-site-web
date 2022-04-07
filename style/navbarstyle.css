@@ -307,9 +307,7 @@
   }
 
   .language-ul {
-    display: flex;
     list-style: none;
-    position: relative;
     left: -2.5%;
     vertical-align: middle;
     text-align: center;
@@ -317,8 +315,8 @@
 
     vertical-align: middle;
     text-align: center;
-    margin-right: -15%;
-    margin-left: -5%;
+    margin-right: -12%;
+    margin-left: -8%;
   }
   .language-ul-800 {
     display: none;

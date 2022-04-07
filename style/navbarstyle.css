@@ -324,6 +324,7 @@
     display: none;
   }
   .language-ul-text {
+    -webkit-text-decoration: none;
     text-decoration: none;
     vertical-align: middle;
     text-align: center;

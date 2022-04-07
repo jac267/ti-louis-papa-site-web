@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px) {
   /*Au dessus de 800px (version mobile)*/
   .commercial-div {
-    top: 60.75vw;
+    top: 65vw;
     position: relative;
     width: 100%;
     height: 137.5vw;

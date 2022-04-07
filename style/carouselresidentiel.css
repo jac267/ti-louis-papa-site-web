@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px) {
   /*Au dessus de 800px (version mobile)*/
   .residentiel-div {
-    top: 51.75vw;
+    top: 55vw;
     position: relative;
     width: 100%;
     height: 107.5vw;

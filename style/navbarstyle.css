@@ -307,6 +307,7 @@
   }
 
   .language-ul {
+    display: flex;
     list-style: none;
     position: relative;
     left: -2.5%;

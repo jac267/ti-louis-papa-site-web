@@ -328,7 +328,7 @@
     vertical-align: middle;
     text-align: center;
 
-    font-size: 3.25vw;
+    font-size: 3.25vw !important;
     padding-left: 6%;
     color: rgb(255, 255, 255);
     font-weight: 900;

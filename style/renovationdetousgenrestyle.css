@@ -62,7 +62,7 @@
     padding: 2.25%;
     width: 100%;
 
-    height: 9.21vw;
+    height: 13.815vw;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(8px);
     justify-content: space-around;
@@ -90,7 +90,7 @@
     color: #14202e;
 
     letter-spacing: 0px;
-    font-size: 4vw;
+    font-size: 6vw;
 
     font-family: "Open sans", sans-serif;
     font-weight: 600;

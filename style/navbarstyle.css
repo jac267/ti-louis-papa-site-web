@@ -322,18 +322,19 @@
     display: none;
   }
   .language-ul-text {
+    text-decoration: none;
     vertical-align: middle;
     text-align: center;
 
     font-size: 3.25vw;
-
+    padding-left: 6%;
     color: rgb(255, 255, 255);
     font-weight: 900;
-    font-family: "Open sans", sans-serif;
+
+    flex-direction: row;
     white-space: nowrap;
-    background-color: transparent;
-    border-style: none;
-    cursor: pointer;
+    font-family: "Open sans", sans-serif;
+    background-color: #14202e;
   }
 
   /*

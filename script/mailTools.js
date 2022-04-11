@@ -1,6 +1,3 @@
-document.getElementById("form-input").value = location.href;
-console.log(document.getElementById("form-input").value);
-
 function send() {
   var dict_content = {
     prenom: document.getElementById("fname").value,

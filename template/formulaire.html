@@ -11,6 +11,10 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.getElementById("form-input").value = location.href;
+      console.log(document.getElementById("form-input").value);
+      </script>
     <script src="/script/input_file.js"></script>
     <script src="/script/periode-drop.js"></script>
     <script src="/script/mailTools.js"></script>
@@ -45,7 +49,7 @@
           <li class="form-files" id="form-files">
             <input type="hidden" name="_captcha" value="false" id="empty" />
           </li>
-          <input type="hidden" name="_next" value="allo" id = "form-input"/>
+          <input type="hidden" name="_next" value="allo" id="form-input"/>
             </form>
             <div class="air1"></div>
             <div class="air2"></div>

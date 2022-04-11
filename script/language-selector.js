@@ -3,7 +3,7 @@ function setLanguage() {
 
   $.getJSON("language/fren.json", function (json) {
     for (const [key, value] of Object.entries(json)) {
-      if (lang == "fr-FR" || lang == "fr") {
+      if (lang == "fr-FR" || lang == "fr" || lang.includes("fr")) {
         if (key != value) {
           while (document.body.innerHTML.search(value) != -1) {
             document.body.innerHTML = document.body.innerHTML.replace(
@@ -13,7 +13,7 @@ function setLanguage() {
           }
         }
       }
-      if (lang == "en-EN" || lang == "en") {
+      if (lang == "en-EN" || lang == "en" || lang.includes("en")) {
         if (key != value) {
           while (document.body.innerHTML.search(key) != -1) {
             document.body.innerHTML = document.body.innerHTML.replace(

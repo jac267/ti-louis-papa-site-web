@@ -307,7 +307,7 @@
   }
 
   .language-ul {
-    z-index: 1;
+    z-index: 10;
     list-style: none;
 
     vertical-align: middle;

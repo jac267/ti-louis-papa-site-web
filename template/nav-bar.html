@@ -13,8 +13,9 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      try {
-current_L = localStorage.getItem("language");
+      current_L = localStorage.getItem("language");
+      
+
 
       if (
         current_L != "en-EN" &&
@@ -35,32 +36,32 @@ current_L = localStorage.getItem("language");
       
       pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
       if (pageName != ""){
-          triangle = document.getElementById(`triangle-${pageName}`);
+        
+        triangle = document.getElementById(`triangle-${pageName}`);
         
         triangle.id = "triangle";
         
 
-        pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
+        
         triangle = document.getElementById(`triangle-${pageName}`);
         
         triangle.id = "triangle";
       }
       else {
+        
         triangle = document.getElementById(`triangle-index`);
         
         triangle.id = "triangle";
         
 
-        pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
+        
         triangle = document.getElementById(`triangle-index`);
         
         triangle.id = "triangle";
       }
 
-      }
-      catch (error){
-        alert(error)
-      }
+      
+      
       
       
       
@@ -164,7 +165,7 @@ current_L = localStorage.getItem("language");
             </li>
           </ul>
           <ul class="info-text-ul">
-            <li><a href="tel:+8199628399" id="telephone">819-962-8399</a></li>
+            <li><a href="tel:8199628399" id="telephone">819-962-8399</a></li>
 
             <li>
               <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation"
@@ -176,7 +177,7 @@ current_L = localStorage.getItem("language");
         <div class="info-div">
           <ul class="info-phone-ul">
             <li><i class="fa-solid fa-phone" id="nav"></i></li>
-            <li><a href="tel:+8199628399" id="telephone">819-962-8399</a></li>
+            <li><a href="tel:8199628399" id="telephone">819-962-8399</a></li>
             
           </ul>
           <ul class="info-email-ul">

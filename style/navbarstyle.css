@@ -265,7 +265,7 @@
     list-style: none;
   }
   .info-ul {
-    display: flex;
+    display: none;
     list-style: none;
   }
 

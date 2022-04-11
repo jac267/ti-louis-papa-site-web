@@ -238,7 +238,7 @@
   .info-div {
     text-decoration: none;
     margin-left: -37.5%;
-    display: flex;
+    display: none;
 
     height: 100%;
 
@@ -270,7 +270,7 @@
   }
 
   .info-sub-li {
-    display: flex;
+    display: none;
     list-style: none;
   }
 

@@ -29,9 +29,10 @@ function setLanguage() {
 
 function setButtonLanguages(text) {
   button_list = document.getElementsByClassName("language-ul-text");
-
+  alert("button_list = document.getElementsByClassName");
   for (var btn of button_list) {
     btn.innerHTML = text;
+    alert("for (var btn of button_list)");
   }
   setLanguage();
 }

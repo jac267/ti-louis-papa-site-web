@@ -25,6 +25,7 @@ current_L = localStorage.getItem("language");
         localStorage.setItem("language", navigator.language);
         current_L = navigator.language;
       }
+      alert("current_L = navigator.language;")
       if (current_L == "en-EN" || current_L == "en") {
         setButtonLanguages("FR");
       }

@@ -238,7 +238,7 @@
   .info-div {
     text-decoration: none;
     margin-left: -37.5%;
-    display: none;
+    display: flex;
 
     height: 100%;
 

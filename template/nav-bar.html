@@ -27,13 +27,13 @@ current_L = localStorage.getItem("language");
       }
       alert("current_L = navigator.language;")
       alert(current_L)
-      if (current_L == "en-EN" || current_L == "en" || lang.includes("en")) {
-        alert(current_L == "en-EN" || current_L == "en" || lang.includes("en"))
+      if (current_L == "en-EN" || current_L == "en" || current_L.includes("en")) {
+        alert(current_L == "en-EN" || current_L == "en" || current_L.includes("en"))
         setButtonLanguages("FR");
       }
 
-      if (current_L == "fr-FR" || current_L == "fr" || lang.includes("fr")) {
-        alert(current_L == "fr-FR" || current_L == "fr" || lang.includes("fr"))
+      if (current_L == "fr-FR" || current_L == "fr" || current_L.includes("fr")) {
+        alert(current_L == "fr-FR" || current_L == "fr" || current_L.includes("fr"))
         setButtonLanguages("EN");
       }
       

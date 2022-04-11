@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      try {
+      
 current_L = localStorage.getItem("language");
 
       if (
@@ -57,10 +57,6 @@ current_L = localStorage.getItem("language");
         triangle.id = "triangle";
       }
 
-      }
-      catch (error){
-        alert(error)
-      }
       
       
       
@@ -80,7 +76,7 @@ current_L = localStorage.getItem("language");
           class="language-ul-text"
           id="LanguageButton"
           onclick="changeLanguage()"
-        />FR</button>
+        >FR</button>
       </li>
     </div>
     <nav class="nav-bar" id="nav-bar-placeholder">

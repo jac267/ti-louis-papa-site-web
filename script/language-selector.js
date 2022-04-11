@@ -41,11 +41,11 @@ function changeLanguage() {
   current_L = localStorage.getItem("language");
   console.log(current_L);
 
-  if (current_L == "en-EN" || current_L == "en") {
+  if (current_L == "en-EN" || current_L == "en" || lang.includes("en")) {
     localStorage.setItem("language", "fr-FR");
     setButtonLanguages("EN");
   }
-  if (current_L == "fr-FR" || current_L == "fr") {
+  if (current_L == "fr-FR" || current_L == "fr" || lang.includes("fr")) {
     localStorage.setItem("language", "en-EN");
 
     setButtonLanguages("FR");

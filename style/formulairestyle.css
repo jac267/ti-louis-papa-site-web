@@ -422,7 +422,7 @@
     vertical-align: center;
 
     color: white;
-    margin-top: 3vw;
+
     width: 65%;
     height: 10vw;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
@@ -431,13 +431,13 @@
     background-color: rgb(207, 96, 40);
     font-family: "Open sans", Extra-bold 900;
     font-weight: 900;
+    font-size: 4vw;
   }
   .btn-send {
     letter-spacing: 0px;
     font-size: 1.5vw;
-    text-align: center;
 
-    margin-top: -10px;
+    height: 100%;
 
     color: white;
   }

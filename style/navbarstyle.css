@@ -263,7 +263,6 @@
   }
   .info-div ul {
     list-style: none;
-    margin-right: 7.5%;
   }
   .info-ul {
     display: flex;
@@ -293,6 +292,7 @@
     color: rgb(255, 255, 255);
   }
   .info-phone-ul {
+    margin-right: 7.5%;
     display: flex;
   }
 

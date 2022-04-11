@@ -33,15 +33,28 @@
       }
       
       pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
-      triangle = document.getElementById(`triangle-${pageName}`);
-      
-      triangle.id = "triangle";
-      
+      if (pageName != ""){
+          triangle = document.getElementById(`triangle-${pageName}`);
+        
+        triangle.id = "triangle";
+        
 
-      pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
-      triangle = document.getElementById(`triangle-${pageName}`);
-      
-      triangle.id = "triangle";
+        pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
+        triangle = document.getElementById(`triangle-${pageName}`);
+        
+        triangle.id = "triangle";
+      }
+      else {
+        triangle = document.getElementById(`triangle-index`);
+        
+        triangle.id = "triangle";
+        
+
+        pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
+        triangle = document.getElementById(`triangle-index`);
+        
+        triangle.id = "triangle";
+      }
       
       
     </script>

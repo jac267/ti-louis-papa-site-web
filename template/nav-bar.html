@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      
+      try {
 current_L = localStorage.getItem("language");
 
       if (
@@ -25,15 +25,11 @@ current_L = localStorage.getItem("language");
         localStorage.setItem("language", navigator.language);
         current_L = navigator.language;
       }
-      alert("current_L = navigator.language;")
-      alert(current_L)
       if (current_L == "en-EN" || current_L == "en" || current_L.includes("en")) {
-        alert(current_L == "en-EN" || current_L == "en" || current_L.includes("en"))
         setButtonLanguages("FR");
       }
 
       if (current_L == "fr-FR" || current_L == "fr" || current_L.includes("fr")) {
-        alert(current_L == "fr-FR" || current_L == "fr" || current_L.includes("fr"))
         setButtonLanguages("EN");
       }
       
@@ -61,6 +57,10 @@ current_L = localStorage.getItem("language");
         triangle.id = "triangle";
       }
 
+      }
+      catch (error){
+        alert(error)
+      }
       
       
       
@@ -74,20 +74,227 @@ current_L = localStorage.getItem("language");
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body onload="setLanguage()">
-    <div class="language-ul">
-      <li>
-        <button
-          class="language-ul-text"
-          id="LanguageButton"
-          onclick="changeLanguage()" ontouchstart="changeLanguage()"
-        >FR</button>
-      </li>
-    </div>
     <nav class="nav-bar" id="nav-bar-placeholder">
       <ul class="split-de-4" style="display: flex">
+        <div class="logo-div">
+          <a href="/ti-louis-papa-site-web/index.html"
+            ><img class="logo-img" src="template/images/logoCRC.png"
+          /></a>
+        </div>
+        <div class="rect-logo"></div>
         
         
 
+        <div class="button-div-800">
+          <ul>
+            <li class="button-sub-sub-line">
+              <a
+                class="button-text"
+                href="/ti-louis-papa-site-web/nous-contacter.html"
+                >Nous&nbsp;contacter</a
+              >
+            </li>
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+              <rect id="triangle-nous-contacter"></rect>
+            </li>
+          </ul>
+
+          <ul>
+            <li class="button-sub-sub-line">
+              <a class="button-text" href="/ti-louis-papa-site-web/index.html"
+                >Accueil</a
+              >
+            </li>
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+              <rect id="triangle-index"></rect>
+            </li>
+          </ul>
+
+          <ul>
+            <li class="button-sub-sub-line">
+              <a
+                class="button-text"
+                href="/ti-louis-papa-site-web/nos_services.html"
+                >Services</a
+              >
+            </li>
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+              <rect id="triangle-nos_services"></rect>
+            </li>
+          </ul>
+
+          <ul>
+            <li class="button-sub-sub-line">
+              <a
+                class="button-text"
+                href="/ti-louis-papa-site-web/carrieres.html"
+                >Carrières</a
+              >
+            </li>
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+              <rect id="triangle-carrieres"></rect>
+            </li>
+          </ul>
+
+          <ul>
+            <li class="button-sub-sub-line">
+              <a
+                class="button-text"
+                href="/ti-louis-papa-site-web/a_propos.html"
+                >À&nbsp;propos</a
+              >
+            </li>
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+              <rect id="triangle-a_propos"></rect>
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-div-800">
+          <ul class="info-icon-ul">
+            <li><i class="fa-solid fa-phone" id="nav"></i></li>
+
+            <li>
+              <i class="fa-regular fa-envelope" id="nav"></i>
+            </li>
+          </ul>
+          <ul class="info-text-ul">
+            <li><a href="tel:+8199628399" id="telephone">819-962-8399</a></li>
+
+            <li>
+              <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation"
+                >Estimation</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="info-div">
+          <ul class="info-phone-ul">
+            <li><i class="fa-solid fa-phone" id="nav"></i></li>
+            <li><a href="tel:+8199628399" id="telephone">819-962-8399</a></li>
+            
+          </ul>
+          <ul class="info-email-ul">
+            
+            <li>
+              <i class="fa-regular fa-envelope" id="nav"></i>
+            </li>
+            <li>
+              <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation"
+                >Estimation</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="language-ul-800">
+          <li>
+            <button
+              class="language-ul-text"
+              id="LanguageButton"
+              onclick="changeLanguage()"
+            />
+          </li>
+        </div>
+        <div class="language-ul">
+                  <li>
+                    <button
+                      class="language-ul-text"
+                      id="LanguageButton"
+                      onclick="changeLanguage()"
+                    />
+                  </li>
+                </div>
+        <button class="burger" onclick="openCloseBurger()">
+          <i class="fa fa-bars" id="fa-bars"></i>
+          <i class="fa-solid fa-xmark" id="fa-xmark" style="display:none;"></i>
+        </button>
+      </ul>
+      <div class="burger-menu" id="burger-menu">
+        <div class="button-div">
+          
+          <ul onclick="location.href='/ti-louis-papa-site-web/nous-contacter.html';">
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+              <rect id="triangle-nous-contacter"></rect>
+            </li>
+            <li class="button-sub-sub-line">
+              <p
+                class="button-text"
+                href="/ti-louis-papa-site-web/nous-contacter.html"
+                >Nous&nbsp;contacter</p
+              >
+            </li>
+            
+          </ul>
+
+          <ul onclick="location.href='/ti-louis-papa-site-web/index.html';">
+            <li class="button-sub-sub-line">
+              <dict class="rect-links"></dict>
+              <rect id="triangle-index"></rect>
+            </li>
+            <li class="button-sub-sub-line">
+              <p class="button-text" 
+                >Accueil</p
+              >
+            </li>
+            
+          </ul>
+
+          <ul onclick="location.href='/ti-louis-papa-site-web/nos_services.html';">
+            <li class="button-sub-sub-line">
+              <li class="button-sub-sub-line">
+                <dict class="rect-links"></dict>
+                <rect id="triangle-nos_services"></rect>
+              </li>
+              <p
+                class="button-text"
+                
+                >Services</p
+              >
+            </li>
+            
+          </ul>
+
+          <ul onclick="location.href='/ti-louis-papa-site-web/carrieres.html';">
+            <li class="button-sub-sub-line">
+              <li class="button-sub-sub-line">
+                <dict class="rect-links"></dict>
+                <rect id="triangle-carrieres"></rect>
+              </li>
+              <p
+                class="button-text"
+                
+                >Carrières</p
+              >
+            </li>
+            
+          </ul>
+
+          <ul onclick="location.href='/ti-louis-papa-site-web/a_propos.html';">
+            <li class="button-sub-sub-line">
+              <li class="button-sub-sub-line">
+                <dict class="rect-links"></dict>
+                <rect id="triangle-a_propos"></rect>
+              </li>
+              <p
+                class="button-text"
+                
+                >À&nbsp;propos</p
+              >
+    
+            </li>
+            
+          </ul>
+        </div>
+
+        
+      </div>
     </nav>
   </body>
 </html>

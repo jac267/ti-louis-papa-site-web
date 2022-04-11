@@ -13,7 +13,8 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      current_L = localStorage.getItem("language");
+      try {
+current_L = localStorage.getItem("language");
 
       if (
         current_L != "en-EN" &&
@@ -55,6 +56,12 @@
         
         triangle.id = "triangle";
       }
+
+      }
+      catch (error){
+        console.error();
+      }
+      
       
       
     </script>

@@ -26,11 +26,14 @@ current_L = localStorage.getItem("language");
         current_L = navigator.language;
       }
       alert("current_L = navigator.language;")
+      alert(current_L)
       if (current_L == "en-EN" || current_L == "en") {
+        alert(current_L == "en-EN" || current_L == "en")
         setButtonLanguages("FR");
       }
 
       if (current_L == "fr-FR" || current_L == "fr") {
+        alert(current_L == "fr-FR" || current_L == "fr")
         setButtonLanguages("EN");
       }
       

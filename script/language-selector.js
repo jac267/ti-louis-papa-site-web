@@ -4,7 +4,7 @@ function setLanguage() {
   $.getJSON("language/fren.json", function (json) {
     for (const [key, value] of Object.entries(json)) {
       if (lang == "fr-FR" || lang == "fr") {
-        if (key != value ) {
+        if (key != value) {
           while (document.body.innerHTML.search(value) != -1) {
             document.body.innerHTML = document.body.innerHTML.replace(
               value,
@@ -27,13 +27,13 @@ function setLanguage() {
   });
 }
 
-function setButtonLanguages(text){
-    button_list = document.getElementsByClassName("language-ul-text");
-    for (var btn of button_list){
-      btn.textContent =  text;
-    }
-    setLanguage();
-  
+function setButtonLanguages(text) {
+  button_list = document.getElementsByClassName("language-ul-text");
+  alert(text);
+  for (var btn of button_list) {
+    btn.textContent = text;
+  }
+  setLanguage();
 }
 function changeLanguage() {
   current_L = localStorage.getItem("language");
@@ -42,14 +42,10 @@ function changeLanguage() {
   if (current_L == "en-EN" || current_L == "en") {
     localStorage.setItem("language", "fr-FR");
     setButtonLanguages("EN");
-    
   }
   if (current_L == "fr-FR" || current_L == "fr") {
     localStorage.setItem("language", "en-EN");
-    
+
     setButtonLanguages("FR");
   }
-
-  
-  
 }

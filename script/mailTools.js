@@ -1,4 +1,4 @@
-"use strict";
+document.getElementById("form-input").value = location.href;
 
 function send() {
   var dict_content = {

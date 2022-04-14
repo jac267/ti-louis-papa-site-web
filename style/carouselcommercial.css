@@ -13,11 +13,8 @@
     background: linear-gradient(
       to top,
       #ffffff 0%,
-      #ffffff 10%,
-      #9c9e9f 10%,
-      #9c9e9f 77.5%,
+      #9c9e9f 50%,
       rgb(255, 255, 255) 77.5%,
-      rgb(255, 255, 255) 100%
     );
   }
 

@@ -1,5 +1,25 @@
 @media screen and (max-width: 800px) {
   /*Au dessus de 800px (version mobile)*/
+  .bg-roche{
+    top:40vw;
+    background-position: top;
+    background-repeat: repeat;
+    height: 160vw;
+    width: 100%;
+    background-image: url(../images/RockTexture.jpg);
+    background-size: 100% 144vw;
+    position: absolute;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 0;
+  }
+
+  .blur-stone{
+    background-color: rgba(207, 205, 205, 0.4);
+    backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
+    height: 100%;
+    width: 100%;
+  }
   .residentiel-div {
     top: 55vw;
     position: relative;
@@ -13,10 +33,7 @@
     background: linear-gradient(
       to top,
       #ffffff 0%,
-      #ffffff 10%,
-      #9c9e9f 10%,
-      #9c9e9f 70%,
-      rgb(255, 255, 255) 70%,
+      rgb(255, 255, 255) 20%,
       rgb(184, 182, 182) 100%
     );
   }

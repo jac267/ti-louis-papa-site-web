@@ -65,6 +65,7 @@
     height: 13.815vw;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     justify-content: space-around;
     align-items: center;
     z-index: 2;

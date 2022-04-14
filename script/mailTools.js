@@ -15,13 +15,27 @@ function send() {
 
   var form = document.getElementById("form-main");
 
-  var messageFiles = document.getElementById("message-files");
+  var messageFiles = document.getElementById("file-input");
 
   setContent(email_content[0]);
   setSubject(email_content[1]);
-  appendAnFileSlot("piece-jointe", dict_content["piecejointe"]);
 
-  form.submit();
+  appendFilesSlots(dict_content["piecejointe"]);
+}
+function appendFilesSlots(contents) {
+  contents[0].name = "allo";
+  console.log(contents);
+  for (var content in contents) {
+    contents_T = contents;
+    for (var content_T in contents) {
+      if (content_T != content) {
+        console.log(content_T);
+        contents_T[content_T] = contents[content];
+      }
+    }
+    appendAnFileSlot(contents_T);
+    console.log(contents_T);
+  }
 }
 
 function miseEnPage(dict_content) {
@@ -85,18 +99,18 @@ function setSubject(subjectContent) {
   subject.value = subjectContent;
 }
 
-function appendAnFileSlot(name, content) {
+function appendAnFileSlot(content) {
   //<input type="file" name="Piece jointe( name )" style="display: none"/>
   var liParent = document.getElementById("form-files");
   var fileSlot = document.createElement("input");
   var emptySlot = document.getElementById("empty");
-
+  console.log("***");
+  console.log(content[0].name);
   fileSlot.type = "file";
-  fileSlot.name = `Piece jointe ${name}`;
+  fileSlot.name = `Piece jointe ${content[0].name}`;
   fileSlot.style.display = "none";
 
   fileSlot.files = content;
-  console.log(fileSlot.files);
-  alert(fileSlot.files);
+
   liParent.insertBefore(fileSlot, emptySlot);
 }

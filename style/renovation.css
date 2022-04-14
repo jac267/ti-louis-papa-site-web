@@ -146,15 +146,19 @@
   .renovation-text {
     width: 100%;
     height: 50%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .renovation-text-header {
     height: 30%;
     width: 90%;
-
-    margin-left: 5%;
-    padding-top: 3vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .renovation-text-header h1 {
@@ -177,30 +181,28 @@
   }
   .renovation-text-and-icon {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: space-around;
-    margin-top: 5%;
-    padding-bottom: 7%;
+    height:50%;
+    width: 100%;
   }
 
   .renovation-icon {
-    object-fit: cover;
-    width: 30%;
-    height: 30%;
-    margin-right: 5vw;
-    margin-top: 8vw;
+    width: 25vw;
+    height: 12.5vw;
+    margin-right:5%;
   }
 
   .renovation-text-list {
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin-left: 10%;
+    line-height: 5vw;
   }
 
   .renovation-text-list-elements {
     text-align: left;
     padding-left: 2.5%;
-    padding-top: 0.25vw;
   }
 
   .renovation-text-list-elements i {
@@ -224,14 +226,21 @@
   }
   .renovation-text-button-div {
     width: 100%;
+    height:20%;
+    display: flex;
+    padding-bottom:3vw;
+    justify-content: center;
+    align-items: center;
   }
 
   .renovation-text-button {
     text-align: center;
     text-decoration: none;
     color: #ffff;
+
     letter-spacing: 0px;
     font-size: 3vw;
+
     font-family: "Open sans", sans-serif;
     font-weight: 600;
     padding: 1.5vw;
@@ -289,7 +298,7 @@
     height: 7.5vw;
     background-color: rgba(255, 255, 255, 0.7);
 
-    z-index: 2;
+    z-index: 5;
   }
 
   .renovation-exterieur-main-titre-rect {

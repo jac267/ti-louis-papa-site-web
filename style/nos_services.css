@@ -14,3 +14,41 @@
 
   background: linear-gradient(#222d3c, #1a2532);
 }
+@media screen and (max-width: 800px) {
+  #estimation {
+    position: absolute;
+    top: 544vw;
+  }
+
+  #revetement {
+    position: absolute;
+    top: 60vw;
+  }
+  #terrasse {
+    position: absolute;
+    top: 220vw;
+  }
+  #renovation {
+    position: absolute;
+    top: 370vw;
+  }
+}
+@media screen and (min-width: 800px) {
+  #estimation {
+    position: relative;
+    top: -56vw;
+  }
+
+  #revetement {
+    position: relative;
+    top: -47.5vw;
+  }
+  #terrasse {
+    position: relative;
+    top: -35vw;
+  }
+  #renovation {
+    position: relative;
+    top: -60vw;
+  }
+}

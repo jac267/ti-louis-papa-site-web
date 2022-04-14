@@ -37,7 +37,7 @@
       pageName = location.href.split("/").slice(-1)[0].replace(".html", "");
       if (pageName != ""){
         if (pageName.includes("#")){
-          pageName = location.href.split("#").slice(-1)[0]
+          pageName = location.href.split("#")[0]
         }
         triangle = document.getElementById(`triangle-${pageName}`);
         

@@ -1,16 +1,16 @@
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .nous-contacter-div {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .nous-contacter-top {
     width: 100%;
     height: 80vw;
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .nous-contacter-top-left {
     width: 100%;
     height: 50%;
@@ -18,7 +18,7 @@
     background-size: cover;
     background-position: bottom;
   }
-  
+
   .nous-contacter-top-right {
     width: 100%;
     height: 50%;
@@ -29,23 +29,23 @@
     background-image: url(../images/RockTexture.jpg);
     background-size: 60vw;
   }
-  
-  .top-right-blur{
+
+  .top-right-blur {
     position: absolute;
     background-color: rgba(207, 205, 205, 0.4);
     backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
     height: 46.8vw;
     width: 100%;
   }
-  
+
   .heures-ouverture-div {
     margin-top: 10vw;
     width: 85%;
     height: 40vw;
     z-index: 1;
-    position:absolute
+    position: absolute;
   }
-  
+
   .heures-ouverture-titre {
     width: 100%;
     height: 20%;
@@ -55,7 +55,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .heures-ouverture-grille {
     width: 100%;
     height: 80%;
@@ -64,7 +64,7 @@
     justify-content: right;
     box-shadow: 5px 5px 30px;
   }
-  
+
   .element-grille {
     width: 50%;
     height: 14.3%;
@@ -75,7 +75,7 @@
     align-items: center;
     border: 1px solid rgb(209, 209, 209);
   }
-  
+
   .nous-contacter-blur {
     margin-top: 18.5vw;
     position: absolute;
@@ -84,7 +84,7 @@
     width: 100%;
     height: 21.5vw;
   }
-  
+
   .nous-contacter-banderole {
     margin-top: 3vw;
     background-color: rgba(255, 255, 255, 0.5);
@@ -98,9 +98,8 @@
     justify-content: center;
     border-top: solid #14202e 0.1vw;
     border-bottom: solid #14202e 0.1vw;
-  
   }
-  
+
   .texte-banderole {
     top: 20vw;
     width: 90%;
@@ -108,10 +107,10 @@
     text-align: center;
     flex-direction: column;
     justify-content: space-around;
-    position:absolute;
+    position: absolute;
     line-height: 5vw;
   }
-  
+
   .rectangle {
     height: 0.4vw;
     width: 5.4vw;
@@ -123,14 +122,14 @@
     background-color: rgb(207, 96, 40);
     z-index: 1;
   }
-  
+
   .nous-contacter-titre {
     width: 30%;
     display: flex;
     justify-content: center;
     vertical-align: center;
   }
-  
+
   .nous-contacter-bottom {
     display: flex;
     background-position: top;
@@ -142,7 +141,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .bloc-informations {
     width: 85%;
     height: 75%;
@@ -152,7 +151,7 @@
     border-radius: 0px 0px 3.8vw 3.8vw;
     box-shadow: 1vw 1vw 5vw;
   }
-  
+
   .bloc-informations-left {
     width: 100%;
     height: 60%;
@@ -163,7 +162,7 @@
     align-items: center;
     flex-direction: column;
   }
-  
+
   .bloc-informations-zones-servies {
     width: 90%;
     height: 25%;
@@ -173,7 +172,7 @@
     box-shadow: 5px 5px 30px;
     border-radius: 10px 10px 0px 0px;
   }
-  
+
   .titre-zones-servies {
     width: 100%;
     height: 55%;
@@ -183,7 +182,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .zones-servies {
     width: 100%;
     height: 45%;
@@ -192,7 +191,7 @@
     justify-content: space-around;
     align-items: center;
   }
-  
+
   .zones-servies-item {
     width: 50%;
     height: 100%;
@@ -201,7 +200,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .bloc-informations-right {
     width: 100%;
     height: 40%;
@@ -210,7 +209,7 @@
     background-repeat: repeat;
     background-size: cover;
   }
-  
+
   .image-telephone {
     background-image: url(../images/iconetelephoneOrange.png);
     width: 20%;
@@ -219,7 +218,7 @@
     background-repeat: no-repeat;
     background-position: left;
   }
-  
+
   .telephone-div {
     width: 80%;
     height: 15%;
@@ -228,7 +227,7 @@
     align-items: center;
     text-decoration: none;
   }
-  
+
   .email-div {
     width: 80%;
     height: 15%;
@@ -237,7 +236,7 @@
     align-items: center;
     text-decoration: none;
   }
-  
+
   .image-email {
     background-image: url(../images/iconemailorange.png);
     width: 20%;
@@ -246,7 +245,7 @@
     background-repeat: no-repeat;
     background-position: left;
   }
-  
+
   .blur {
     position: absolute;
     background-color: rgba(207, 205, 205, 0.4);
@@ -254,16 +253,16 @@
     height: 200vw;
     width: 100%;
   }
-  
+
   .top-blur {
     align-self: flex-start;
     position: absolute;
-    background-color: rgba(20,32,46, 0.9);
+    background-color: rgba(20, 32, 46, 0.9);
     backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
     height: 100vw;
     width: 100%;
   }
-  
+
   h2 {
     text-decoration: none;
     color: #14202e;
@@ -272,7 +271,7 @@
     font-family: "Open sans", sans-serif;
     font-weight: 600;
   }
-  
+
   h3 {
     font-size: 4vw;
     font-family: "Open sans", sans-serif;
@@ -281,7 +280,7 @@
     text-decoration: none;
     vertical-align: middle;
   }
-  
+
   p1 {
     color: #ffff;
     text-shadow: 6px 6px 7px #000;
@@ -290,9 +289,9 @@
     font-weight: 900;
     font-family: "Libre Franklin", sans-serif;
   }
-  
+
   p2 {
-    font-size: 3.0vw;
+    font-size: 3vw;
     font-family: "Open sans", sans-serif;
     color: #14202e;
     font-weight: 600;
@@ -300,7 +299,7 @@
     text-align: center;
     vertical-align: middle;
   }
-  
+
   p3 {
     font-size: 2.8vw;
     font-family: "Open sans", sans-serif;
@@ -310,7 +309,7 @@
     text-align: center;
     vertical-align: middle;
   }
-  
+
   p4 {
     font-size: 2.5vw;
     font-family: "Open sans", sans-serif;
@@ -320,17 +319,21 @@
     text-align: center;
     vertical-align: middle;
   }
-  
+
   .formulaire-container-nous-contacter {
     position: relative;
     top: 0vw;
     width: 100%;
     height: 44vw;
-  
+
     list-style: none;
   }
-  
+  #estimation {
+    position: absolute;
+    top: 300vw;
+  }
 }
+/*
 
 
 
@@ -347,23 +350,19 @@
 
 
 
-
-
-
-
-
-@media (min-width: 800px){
+*/
+@media (min-width: 800px) {
   .nous-contacter-div {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .nous-contacter-top {
     width: 100%;
     height: 35vw;
     display: flex;
   }
-  
+
   .nous-contacter-top-left {
     width: 50%;
     height: 100%;
@@ -371,7 +370,7 @@
     background-size: cover;
     background-position: bottom;
   }
-  
+
   .nous-contacter-top-right {
     width: 50%;
     height: 100%;
@@ -382,22 +381,22 @@
     background-image: url(../images/RockTexture.jpg);
     background-size: cover;
   }
-  
-  .top-right-blur{
+
+  .top-right-blur {
     position: absolute;
     background-color: rgba(207, 205, 205, 0.4);
     backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
     height: 46.8vw;
     width: 50%;
   }
-  
+
   .heures-ouverture-div {
     margin-top: 13vw;
     width: 34vw;
     height: 20vw;
     z-index: 1;
   }
-  
+
   .heures-ouverture-titre {
     width: 100%;
     height: 20%;
@@ -407,7 +406,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .heures-ouverture-grille {
     width: 100%;
     height: 80%;
@@ -416,7 +415,7 @@
     justify-content: right;
     box-shadow: 5px 5px 30px;
   }
-  
+
   .element-grille {
     width: 50%;
     height: 14.3%;
@@ -424,7 +423,7 @@
     text-align: center;
     border: 1px solid rgb(209, 209, 209);
   }
-  
+
   .nous-contacter-blur {
     position: absolute;
     background-color: rgba(228, 228, 228, 0.4);
@@ -433,7 +432,7 @@
     height: 35vw;
     margin-left: 41.95%;
   }
-  
+
   .nous-contacter-banderole {
     margin-top: 3vw;
     background-color: rgba(255, 255, 255, 0.5);
@@ -446,9 +445,8 @@
     justify-content: space-evenly;
     border-top: solid #14202e 0.1vw;
     border-bottom: solid #14202e 0.1vw;
-  
   }
-  
+
   .texte-banderole {
     width: 48%;
     vertical-align: middle;
@@ -457,21 +455,21 @@
     flex-direction: column;
     justify-content: space-around;
   }
-  
+
   .rectangle {
     width: 5.4vw;
     height: 0.4vw;
     border-radius: 1vw;
     background-color: rgb(207, 96, 40);
   }
-  
+
   .nous-contacter-titre {
     width: 30%;
     display: flex;
     justify-content: center;
     vertical-align: center;
   }
-  
+
   .nous-contacter-bottom {
     display: flex;
     background-position: top;
@@ -483,14 +481,14 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .bloc-informations {
     width: 85%;
     height: 70%;
     z-index: 1;
     display: flex;
   }
-  
+
   .bloc-informations-left {
     width: 40%;
     height: 100%;
@@ -501,7 +499,7 @@
     align-items: center;
     flex-direction: column;
   }
-  
+
   .bloc-informations-zones-servies {
     width: 90%;
     height: 25%;
@@ -510,7 +508,7 @@
     box-shadow: 5px 5px 30px;
     border-radius: 10px 10px 0px 0px;
   }
-  
+
   .titre-zones-servies {
     width: 100%;
     height: 55%;
@@ -520,7 +518,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .zones-servies {
     width: 100%;
     height: 45%;
@@ -529,7 +527,7 @@
     justify-content: space-around;
     align-items: center;
   }
-  
+
   .zones-servies-item {
     width: 50%;
     height: 100%;
@@ -538,7 +536,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .bloc-informations-right {
     width: 60%;
     height: 100%;
@@ -547,7 +545,7 @@
     background-repeat: repeat;
     background-size: cover;
   }
-  
+
   .image-telephone {
     background-image: url(../images/iconetelephoneOrange.png);
     width: 20%;
@@ -556,7 +554,7 @@
     background-repeat: no-repeat;
     background-position: left;
   }
-  
+
   .telephone-div {
     width: 80%;
     height: 15%;
@@ -565,7 +563,7 @@
     align-items: center;
     text-decoration: none;
   }
-  
+
   .email-div {
     width: 80%;
     height: 15%;
@@ -574,7 +572,7 @@
     align-items: center;
     text-decoration: none;
   }
-  
+
   .image-email {
     background-image: url(../images/iconemailorange.png);
     width: 20%;
@@ -583,7 +581,7 @@
     background-repeat: no-repeat;
     background-position: left;
   }
-  
+
   .blur {
     position: absolute;
     background-color: rgba(207, 205, 205, 0.4);
@@ -591,16 +589,16 @@
     height: 46.8vw;
     width: 100%;
   }
-  
+
   .top-blur {
     align-self: flex-start;
     position: absolute;
-    background-color: rgba(20,32,46, 0.9);
+    background-color: rgba(20, 32, 46, 0.9);
     backdrop-filter: blur(50px) grayscale(0.15) opacity(0.4);
     height: 20vw;
     width: 100%;
   }
-  
+
   h2 {
     text-decoration: none;
     color: #14202e;
@@ -609,7 +607,7 @@
     font-family: "Open sans", sans-serif;
     font-weight: 600;
   }
-  
+
   h3 {
     font-size: 1.9vw;
     font-family: "Open sans", sans-serif;
@@ -618,7 +616,7 @@
     text-decoration: none;
     vertical-align: middle;
   }
-  
+
   p1 {
     font-size: 1.5vw;
     font-family: "Open sans", sans-serif;
@@ -627,7 +625,7 @@
     text-align: center;
     vertical-align: middle;
   }
-  
+
   p2 {
     font-size: 1.5vw;
     font-family: "Open sans", sans-serif;
@@ -637,7 +635,7 @@
     text-align: center;
     vertical-align: middle;
   }
-  
+
   p3 {
     font-size: 1.2vw;
     font-family: "Open sans", sans-serif;
@@ -647,7 +645,7 @@
     text-align: center;
     vertical-align: middle;
   }
-  
+
   p4 {
     font-size: 1vw;
     font-family: "Open sans", sans-serif;
@@ -657,14 +655,17 @@
     text-align: center;
     vertical-align: middle;
   }
-  
+
   .formulaire-container-nous-contacter {
     position: relative;
     top: 0vw;
     width: 100%;
     height: 44vw;
-  
+
     list-style: none;
   }
-  
+  #estimation {
+    position: absolute;
+    top: 92vw;
+  }
 }

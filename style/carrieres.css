@@ -140,7 +140,7 @@
     display: flex;
     justify-items: center;
     flex-direction: column;
-    padding: 3vw 3.5vw;
+    width: 80%;
   }
   .image-formation-div {
     display: flex;
@@ -156,7 +156,7 @@
     width: 15vw;
     height: auto;
     background-blend-mode: difference;
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
   }
 
   .liste-competences {

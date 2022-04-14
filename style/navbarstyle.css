@@ -564,7 +564,7 @@
   }
   #triangle {
     position: absolute;
-    top: 67.5px;
+    top: 69px;
     transform: rotate(180deg);
     width: 0;
     height: 0;

@@ -128,7 +128,7 @@
     font-size: 5.625vw;
 
     padding-bottom: 2.5vw;
-    color: rgb(207, 96, 40);
+    color: rgb(207, 96, 40) !important;
     font-family: "Open sans", sans-serif;
     font-weight: bolder;
     -webkit-text-stroke: 0.02em white;

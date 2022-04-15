@@ -529,6 +529,13 @@
     justify-content: space-between;
   }
 
+  .button-div-800 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .button-text {
     vertical-align: middle;
     text-align: center;

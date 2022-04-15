@@ -101,6 +101,7 @@
     color: rgba(255, 255, 255, 0.8);
     font-size: 10vw;
     text-shadow: 2px 5px 5px black;
+    display:block;
   }
   .btn-left {
     text-align: center;

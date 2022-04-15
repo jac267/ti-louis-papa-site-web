@@ -280,6 +280,7 @@
     font-size: 5.5vw;
     z-index: 1000;
     text-shadow: 2px 5px 5px black;
+    display:block;
   }
   .btn-left {
     text-align: center;

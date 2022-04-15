@@ -49,13 +49,13 @@
         
         triangle.id = "triangle";
 
-        if (pageName == "index"){
+        if (pageName == "index" || pageName == "nos_services"){
           buttons = document.getElementsByClassName("adaptative-index-estimation")
 
           for (const button_estimation of buttons)
           {
-            button_estimation.href = button_estimation.href.replace("nous-contacter.html#estimation", "index.html#estimation");
-            alert("button_estimation.href")
+            button_estimation.href = button_estimation.href.replace("nous-contacter.html#estimation", `${pageName}.html#estimation`);
+            
           }
             
          
@@ -77,7 +77,7 @@
         for (const button_estimation of buttons)
           {
             button_estimation.href = button_estimation.href.replace("nous-contacter.html#estimation", "#estimation");
-            alert("button_estimation.href")
+            
           }
       }
 

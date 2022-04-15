@@ -1,43 +1,3 @@
-function send() {
-  var dict_content = {
-    prenom: document.getElementById("fname").value,
-    nom: document.getElementById("lname").value,
-    couriel: document.getElementById("couriel").value,
-    telephone: document.getElementById("phone").value,
-    ville: document.getElementById("ville").value,
-    disponibilite: document.getElementById("periode").placeholder.split(":")[1],
-    message: document.getElementById("message").value,
-    piecejointe: document.getElementById("file-input").files,
-  };
-
-  alert(dict_content["disponibilite"]);
-  var email_content = miseEnPage(dict_content);
-
-  var form = document.getElementById("form-main");
-
-  var messageFiles = document.getElementById("file-input");
-
-  setContent(email_content[0]);
-  setSubject(email_content[1]);
-
-  appendFilesSlots(dict_content["piecejointe"]);
-}
-function appendFilesSlots(contents) {
-  contents[0].name = "allo";
-  console.log(contents);
-  for (var content in contents) {
-    contents_T = contents;
-    for (var content_T in contents) {
-      if (content_T != content) {
-        console.log(content_T);
-        contents_T[content_T] = contents[content];
-      }
-    }
-    appendAnFileSlot(contents_T);
-    console.log(contents_T);
-  }
-}
-
 function miseEnPage(dict_content) {
   // espace = \xa0, new line = \n
   var output = "";
@@ -99,15 +59,14 @@ function setSubject(subjectContent) {
   subject.value = subjectContent;
 }
 
-function appendAnFileSlot(content) {
+function appendAnFileSlot(name, content) {
   //<input type="file" name="Piece jointe( name )" style="display: none"/>
   var liParent = document.getElementById("form-files");
   var fileSlot = document.createElement("input");
   var emptySlot = document.getElementById("empty");
-  console.log("***");
-  console.log(content[0].name);
+
   fileSlot.type = "file";
-  fileSlot.name = `Piece jointe ${content[0].name}`;
+  fileSlot.name = `Piece jointe ${name}`;
   fileSlot.style.display = "none";
 
   fileSlot.files = content;

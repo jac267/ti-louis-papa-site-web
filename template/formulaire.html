@@ -13,7 +13,35 @@
     ></script>
     <script>
       document.getElementById("form-input").value = location.href;
-      console.log(document.getElementById("form-input").value);
+      
+        function send() {
+      var dict_content = {
+      prenom: document.getElementById("fname").value,
+      nom: document.getElementById("lname").value,
+      couriel: document.getElementById("couriel").value,
+      telephone: document.getElementById("phone").value,
+      ville: document.getElementById("ville").value,
+      disponibilite: document.getElementById("periode").placeholder.split(":")[1],
+      message: document.getElementById("message").value,
+      piecejointe: document.getElementById("file-input").files,
+    };
+
+    
+    var email_content = miseEnPage(dict_content);
+
+    var form = document.getElementById("form-main");
+
+    var messageFiles = document.getElementById("message-files");
+
+    setContent(email_content[0]);
+    setSubject(email_content[1]);
+    appendAnFileSlot("piece-jointe", dict_content["piecejointe"]);
+
+    form.submit();
+
+    alert("Votre soumission à été envoyée avec succès!")
+
+  }
       </script>
     <script src="/script/input_file.js"></script>
     <script src="/script/periode-drop.js"></script>
@@ -83,8 +111,8 @@
             <div class="input-message"><textarea class="message-input" type="text" id="message" name="message" placeholder="Message" style="font-family: Open sans"></textarea></div>
             
             <label class="input-fichier">
-              <h class="file-input-text" id="file-input-text" style="font-family: Open sans">Ajouter une ou des pieces jointes</h>
-              <input type="file" id="file-input" style="display: none;" multiple onchange="fileInputTextUpdate()">
+              <h class="file-input-text" id="file-input-text" style="font-family: Open sans">Ajouter une piece jointe</h>
+              <input type="file" id="file-input" style="display: none;" onchange="fileInputTextUpdate()">
                 
                 
                 

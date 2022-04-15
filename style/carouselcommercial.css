@@ -214,10 +214,10 @@
 
     background: linear-gradient(
       to top,
-      rgb(255, 255, 255) 0%,
-      rgb(184, 182, 182) 30%,
-      #9c9e9f 30%,
-      #9c9e9f 100%
+    rgba(255, 255, 255,0.5) 0%,
+    rgba(184, 182, 182,0.5) 30%
+    #ffffff 50%
+    #ffffff 100%
     );
   }
 

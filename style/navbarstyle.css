@@ -190,12 +190,11 @@
   }
   #triangle {
     position: absolute;
-
-    left: 5.5%;
+    left: 4.85%;
     transform: rotate(90deg); 
     width: 0;
     height: 0;
-    border: 1vw solid transparent;
+    border: 1.6vw solid transparent;
     border-top: 0;
     border-bottom: 7vw solid rgb(207, 96, 40);
   }

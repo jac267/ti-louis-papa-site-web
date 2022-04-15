@@ -48,6 +48,19 @@
         triangle = document.getElementById(`triangle-${pageName}`);
         
         triangle.id = "triangle";
+
+        if (pageName == "index" || pageName == "nos_services"){
+          buttons = document.getElementsByClassName("adaptative-index-estimation")
+
+          for (const button_estimation of buttons)
+          {
+            button_estimation.href = button_estimation.href.replace("nous-contacter.html#estimation", `${pageName}.html#estimation`);
+            
+          }
+            
+         
+
+        }
       }
       else {
         
@@ -60,6 +73,12 @@
         triangle = document.getElementById(`triangle-index`);
         
         triangle.id = "triangle";
+        buttons = document.getElementsByClassName("adaptative-index-estimation")
+        for (const button_estimation of buttons)
+          {
+            button_estimation.href = button_estimation.href.replace("nous-contacter.html#estimation", "#estimation");
+            
+          }
       }
 
       
@@ -170,7 +189,7 @@
             <li><a href="tel:8199628399" id="telephone">819-962-8399</a></li>
 
             <li>
-              <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation"
+              <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation" class="adaptative-index-estimation"
                 >Estimation</a
               >
             </li>
@@ -188,7 +207,7 @@
               <i class="fa-regular fa-envelope" id="nav"></i>
             </li>
             <li>
-              <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation"
+              <a href="/ti-louis-papa-site-web/nous-contacter.html#estimation" class="adaptative-index-estimation"
                 >Estimation</a
               >
             </li>

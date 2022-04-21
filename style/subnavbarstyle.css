@@ -21,6 +21,16 @@
 
     font-family: "Libre Franklin", sans-serif;
   }
+  .sub-nav-bar h {
+    color: #ffff;
+    text-shadow: 6px 6px 7px #000;
+
+    letter-spacing: 1px;
+    font-size: 5vw;
+    font-weight: 900;
+
+    font-family: "Libre Franklin", sans-serif;
+  }
   .rect-info-decoration {
     height: 10px;
     width: 5.4vw;
@@ -36,7 +46,7 @@
 @media screen and (max-width: 800px) {
   /*Au dessus de 800px (version mobile)*/
 
-  .sub-nav-bar {
+  .sub-nav-bar{
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: calc(1.5vw + 45px);
@@ -46,7 +56,18 @@
     align-items: center;
     border-bottom: solid #14202e 0.1vw;
   }
+  .sub-nav-bar h {
+    color: #14202e;
 
+    text-decoration: none;
+    letter-spacing: 0px;
+    text-align: center;
+
+    font-size: calc(1vw + 5px);
+    font-weight: 900;
+
+    font-family: "Libre Franklin", sans-serif;
+  }
   .info-text-bar {
     text-align: center;
   }
@@ -84,6 +105,7 @@
     display: none;
   }
 }
+
 /*
 
 
@@ -190,5 +212,17 @@
   }
   .mots-cles{
     display: none;
+  }
+  .sub-nav-bar h {
+    color: #14202e;
+
+    text-decoration: none;
+    letter-spacing: 0px;
+    text-align: center;
+
+    font-size: calc(1vw + 5px);
+    font-weight: 900;
+
+    font-family: "Libre Franklin", sans-serif;
   }
 }

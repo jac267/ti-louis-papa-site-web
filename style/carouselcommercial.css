@@ -138,11 +138,13 @@
   }
 
   .commercial-text-list-elements {
+    display:flex;
+    align-items: center;
     text-align: left;
+    padding-left: 12.5%;
+    padding-top: 0.25vw;
     height: 4.5vw;
     list-style: none;
-    padding-left: 12.5%;
-    justify-content: space-around;
   }
 
   .commercial-text-list-elements i {
@@ -150,7 +152,7 @@
     font-size: 1.25vw;
     padding-right: 1vw;
   }
-  .commercial-text-list-elements h {
+  .commercial-text-list-elements h3 {
     color: #14202e;
 
     font-size: 2.25vw;
@@ -330,9 +332,13 @@
   }
 
   .commercial-text-list-elements {
+    display:flex;
+    align-items: center;
     text-align: left;
     padding-left: 12.5%;
     padding-top: 0.25vw;
+    height: 4.5vw;
+    list-style: none;
   }
 
   .commercial-text-list-elements i {
@@ -340,7 +346,7 @@
     font-size: 1vw;
     padding-right: 1vw;
   }
-  .commercial-text-list-elements h {
+  .commercial-text-list-elements h3 {
     color: #14202e;
     font-size: 1.5vw;
     font-weight: 600;
